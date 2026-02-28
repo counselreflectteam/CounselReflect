@@ -1,0 +1,25 @@
+services:
+  api:
+    # In production, we pull the built image from GitHub Container Registry
+    # Image name will be set via GITHUB_REPOSITORY environment variable
+    image: ghcr.io/${GITHUB_REPOSITORY}/api:latest
+    container_name: therapist_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+      - PERSPECTIVE_API_KEY=${PERSPECTIVE_API_KEY}
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+      # Persist downloaded MedScore corpus
+      - corpus_data:/app/corpus
+      # Persist downloaded FActScore DocDB
+      - factscore_cache:/app/.cache/factscore
+    restart: always
+
+volumes:
+  hf_cache:
+  corpus_data:
+  factscore_cache:

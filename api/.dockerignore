@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local data / caches / models (These are huge and should be downloaded/persisted via volumes instead)
+.cache/
+corpus/
+temp/
+*.db
+
+# IDEs and environments
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# Git
+.git/
+.gitignore
+
+# Package manager locks
+uv.lock

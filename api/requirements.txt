@@ -1,0 +1,39 @@
+# FastAPI backend dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+replicate>=0.25.0
+torch>=2.0.0
+transformers>=4.30.0
+detoxify>=0.5.0
+
+# Fact Score evaluator dependencies
+wikipedia-api>=0.6.0
+rich>=13.0.0
+rank-bm25>=0.2.2
+nltk>=3.8
+
+# MedScore evaluator dependencies (from MedScore pyproject.toml)
+backoff>=2.0.0
+faiss-cpu==1.9.0
+huggingface-hub==0.34.3
+jsonlines==4.0.0
+numpy>=1.24.0,<1.27.0
+openai==1.93.0
+overrides
+pandas
+pydantic==2.10.6
+pyyaml
+regex
+requests
+spacy==3.7.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+tqdm
+nest_asyncio
+sentence_transformers
+python-dotenv
+# vllm
+registrable==0.0.4
+
+# Multi-provider LLM support
+google-genai>=0.2.0
+anthropic>=0.18.0

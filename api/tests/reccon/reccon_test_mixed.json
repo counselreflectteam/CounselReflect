@@ -1,0 +1,7 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "Honestly I'm anxious. The main reason is my boss said, 'we need to talk tomorrow,' and now I can't stop thinking I’m in trouble." },
+    { "speaker": "Therapist", "text": "When you heard 'we need to talk tomorrow,' what did you immediately assume?" }
+  ],
+  "metrics": ["talk_type"]
+}

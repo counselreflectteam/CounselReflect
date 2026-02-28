@@ -1,0 +1,34 @@
+# CLI tool specific ignores
+# (Python common patterns are handled in root .gitignore)
+
+# Environment variables (contains API keys)
+.env
+.env.local
+
+# Results directories - user generated outputs
+results/
+output/
+
+# HTML reports
+*.html
+
+# Excel and JSON result files - but keep reference samples
+# IMPORTANT: Negation rules must come in specific order
+# 1. First, ignore the pattern globally
+*.xlsx
+*_results.json
+
+# 2. Then, explicitly un-ignore the directories containing exceptions
+!samples/
+!samples/results/
+
+# 3. Finally, re-ignore everything in those directories EXCEPT our samples
+samples/results/*
+!samples/results/sample1_results.json
+!samples/results/sample1_results.xlsx
+!samples/results/sample2_results.json
+!samples/results/sample2_results.xlsx
+
+# CLI cache
+.cache/
+__cache__/

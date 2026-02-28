@@ -1,0 +1,29 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "I've been feeling so overwhelmed lately, like I'm constantly underwater and can't catch my breath."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you're carrying a heavy burden right now, and the pressure feels almost suffocating, making it hard to find a moment of peace."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Exactly. And every time I try to talk to my boss about it, I just freeze up."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "So even though you know you need to speak up to change things, there's a part of you that feels paralyzed when it comes time to actually advocate for yourself."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yeah, I'm just afraid I'll look weak or incompetent."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You're worried that showing any sign of struggle will lead others to judge you or doubt your abilities."
+    }
+  ],
+  "metrics": ["pair"]
+}

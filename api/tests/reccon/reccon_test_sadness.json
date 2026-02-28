@@ -1,0 +1,7 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I feel sad because my best friend stopped replying to me after our argument." },
+    { "speaker": "Therapist", "text": "That’s painful. What did it mean to you when they stopped replying?" }
+  ],
+  "metrics": ["talk_type"]
+}

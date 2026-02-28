@@ -1,0 +1,7 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I feel happy because I finally passed the exam I’ve been studying for all month." },
+    { "speaker": "Therapist", "text": "Congratulations! What part of passing feels most meaningful?" }
+  ],
+  "metrics": ["talk_type"]
+}

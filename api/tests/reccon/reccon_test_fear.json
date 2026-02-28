@@ -1,0 +1,8 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I feel scared because I heard footsteps outside my door last night." },
+    { "speaker": "Therapist", "text": "That sounds frightening. What about the footsteps made it feel unsafe?" },
+    { "speaker": "Client", "text": "They were right outside my bedroom door and I was alone." }
+  ],
+  "metrics": ["talk_type"]
+}

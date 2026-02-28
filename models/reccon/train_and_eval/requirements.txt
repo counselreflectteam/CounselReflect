@@ -1,0 +1,4 @@
+
+simpletransformers==0.70.0
+pandas
+scikit-learn

@@ -1,0 +1,29 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "I know I am too big, and I probably should exercise more and eat...my friends want to exercise with me. They’re lazier than I am."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You have put a lot of effort into losing weight but it has not p...or you. You are looking for something different that might last."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I know I am too big, and I probably should exercise more and eat...my friends want to exercise with me. They’re lazier than I am."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You don't know how you'd fit exercise into your schedule."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I know I am too big, and I probably should exercise more and eat...my friends want to exercise with me. They’re lazier than I am."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Do you have a cheap gym near you, like a Planet Fitness?"
+    }
+  ],
+  "metrics": ["pair"]
+}

@@ -1,0 +1,29 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "I start a diet every day but once I get hungry, I lose my discipline."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You really struggle with sticking to your weight loss goals when you're hungry."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yes, it's like I know what I should do, but my hunger takes over my willpower."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like hunger is a significant trigger for you that leads to overeating."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Exactly, and then I feel guilty afterward, which makes it even harder to stay on track."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "That guilt can create a negative cycle that impacts your motivation."
+    }
+  ],
+  "metrics": ["pair"]
+}

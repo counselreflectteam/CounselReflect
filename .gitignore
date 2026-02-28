@@ -1,0 +1,270 @@
+# =====================================
+# Root .gitignore for LLM Therapist Tool
+# =====================================
+
+# ============ Python ============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============ Node.js / JavaScript ============
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production builds
+/build
+/dist
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+.vite/
+*.local
+*.tsbuildinfo
+
+# Next.js
+/.next/
+/out/
+
+# ============ IDE & Editors ============
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs (PyCharm, WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============ Operating System ============
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+$RECYCLE.BIN/
+
+# ============ Environment & Secrets ============
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Secrets
+secrets.json
+config.json
+*.key
+*.pem
+
+# API keys (should use .env instead)
+api_keys.json
+
+# ============ Temporary Files ============
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ============ Model Files (Large Files) ============
+# Trained models
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.h5
+*.hdf5
+*.keras
+
+# Checkpoints
+checkpoints/
+checkpoint/
+
+# ============ Data Files ============
+# Large datasets (users should download separately)
+data/*
+!data/Generated_Data.json
+datasets/
+dataset/
+*.csv
+*.parquet
+*.feather
+*.arrow
+
+# Exceptions - keep example/sample files
+!sample_*.json
+!example_*.csv
+!**/test*.json
+!**/tests/**/*.json
+!**/samples/**/*.json
+
+# Keep specific documentation and examples
+!web/data/
+!web/data/*.json
+!web/data/prompts/
+!web/data/prompts/*.txt
+
+# ============ Output & Results ============
+# Training outputs
+output/
+output_*/
+outputs/
+results/
+runs/
+experiments/
+experiments_output/
+
+# Evaluation results
+evaluation_output/
+eval_results/
+
+# ============ Project Specific ============
+# Gemini score cache
+gemini-score/.cache/
+gemini-score/temp/
+
+# Literature files
+api/literature/therapeutic_metrics_literature.csv
+
+# Hugging Face cache
+huggingface_upload/
+.transformers_cache/
+
+# ============ Deployment ============
+deployment/*.zip
+deployment/endpoint_*
+deployment/model_artifacts/
+
+# ============ Misc ============
+# Logs
+logs
+*.log
+temp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+!api/evaluators/lib/
+api/corpus/
+corpus/
