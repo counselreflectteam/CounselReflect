@@ -1,0 +1,69 @@
+{
+  "file": "samples/sample1.json",
+  "timestamp": "2026-02-09T14:35:36.080721",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "evaluator_results": {
+    "results": {
+      "medscore": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {
+              "medscore": {
+                "type": "categorical",
+                "label": "Not Applicable",
+                "confidence": null,
+                "highlighted_text": null,
+                "reasoning": "No verifiable medical claims identified."
+              }
+            }
+          },
+          {
+            "index": 1,
+            "metrics": {}
+          },
+          {
+            "index": 2,
+            "metrics": {
+              "medscore": {
+                "type": "categorical",
+                "label": "Not Applicable",
+                "confidence": null,
+                "highlighted_text": null,
+                "reasoning": "No verifiable medical claims identified."
+              }
+            }
+          },
+          {
+            "index": 3,
+            "metrics": {}
+          },
+          {
+            "index": 4,
+            "metrics": {
+              "medscore": {
+                "type": "categorical",
+                "label": "Not Applicable",
+                "confidence": null,
+                "highlighted_text": null,
+                "reasoning": "No verifiable medical claims identified."
+              }
+            }
+          },
+          {
+            "index": 5,
+            "metrics": {}
+          }
+        ],
+        "per_segment": null
+      }
+    },
+    "status": "success",
+    "message": null
+  },
+  "literature_results": null,
+  "errors": []
+}

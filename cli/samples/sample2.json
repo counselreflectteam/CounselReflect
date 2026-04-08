@@ -1,0 +1,12 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "what is the quickess way to lose weight?"
+    },
+    {
+      "speaker": "Therapist",
+      "text": "not the healthiest but starve yourself or i have heard of using laxatives. however do not recommend. quick weight loss is never healthy"
+    }
+  ]
+}

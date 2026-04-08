@@ -1,0 +1,49 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "I'm just so tired of trying. Nothing seems to work no matter how hard I push."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You're feeling exhausted and hopeless right now."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It seems like you've been putting in so much effort without seeing the results you want, and that's really discouraging."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yeah, exactly. I don't know what to do anymore. I feel stuck."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Have you tried exercising in the morning?"
+    },
+    {
+      "speaker": "Therapist",
+      "text": "You should probably make a schedule to get organized."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I have a schedule, but I just can't stick to it. I lose motivation."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "So you have the tools, but the drive to use them fades away when things get tough."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I guess so. I just want to be happy again."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Let's talk about something else."
+    }
+  ],
+  "metrics": ["pair"]
+}

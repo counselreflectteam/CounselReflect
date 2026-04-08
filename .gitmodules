@@ -1,0 +1,6 @@
+[submodule "models/toxicity"]
+	path = models/toxicity
+	url = https://github.com/unitaryai/detoxify
+[submodule "models/reccon/reccon"]
+	path = models/reccon/reccon
+	url = https://github.com/declare-lab/RECCON

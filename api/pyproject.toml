@@ -1,0 +1,64 @@
+[project]
+name = "therapist-tool-api"
+version = "0.1.0"
+description = "API backend for LLM Model Therapist Tool with MedScore integration"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "CounselReflect" }]
+
+dependencies = [
+    # FastAPI backend dependencies
+    "fastapi>=0.100.0",
+    "uvicorn[standard]>=0.23.0",
+    "replicate>=0.25.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "detoxify>=0.5.0",
+
+    # Fact Score evaluator dependencies
+    "wikipedia-api>=0.6.0",
+    "rich>=13.0.0",
+
+    # MedScore evaluator dependencies (from MedScore pyproject.toml)
+    "backoff",
+    "faiss-cpu==1.9.0",
+    "huggingface-hub==0.34.3",
+    "jsonlines==4.0.0",
+    "numpy>=1.15.0,<1.27.0",
+    "openai==1.93.0",
+    "overrides",
+    "pandas",
+    "pydantic==2.10.6",
+    "pyyaml",
+    "regex",
+    "requests",
+    "spacy==3.7.4",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl",
+    "tqdm",
+    "nest_asyncio",
+    "sentence-transformers",
+    "python-dotenv",
+    # "vllm",  # Removed: requires CUDA, not compatible with macOS
+    "registrable==0.0.4",
+
+    # Multi-provider LLM support
+    "google-genai>=0.2.0",
+    "anthropic>=0.18.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# uv specific configuration
+managed = true
+
+[dependency-groups]
+dev = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["customizePipeline", "evaluators", "literature", "utils"]

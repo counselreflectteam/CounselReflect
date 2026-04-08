@@ -1,0 +1,22 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I’ve been working toward this promotion for three years. When I saw the email, I literally jumped out of my chair. It feels like a huge weight has been lifted." },
+    { "speaker": "Therapist", "text": "That sounds like a moment of pure release and accomplishment. What was the first thing you did?" },
+
+    { "speaker": "Client", "text": "I keep checking my phone, hoping for a text that I know isn't coming. The house feels so quiet. I walked past that coffee shop we used to go to, and I just had to turn around and go home." },
+    { "speaker": "Therapist", "text": "It sounds like his absence is filling every corner of your life right now. How are you holding up?" },
+
+    { "speaker": "Client", "text": "I spent three weeks on that report. Three weeks of late nights. And then he just stands there in the meeting, presenting my slides like he wrote them. My hands were shaking under the table." },
+    { "speaker": "Therapist", "text": "To see your hard work co-opted like that must be incredibly trying. Did you say anything?" },
+
+    { "speaker": "Client", "text": "I heard a noise downstairs around 2 AM. It wasn't the wind. I froze in bed, just listening, my heart pounding so hard I thought it would burst. Every creak sounded like footsteps." },
+    { "speaker": "Therapist", "text": "That sounds like a terrifying few minutes. How long did it take before you felt safe enough to move?" },
+
+    { "speaker": "Client", "text": "I walked in expecting the usual Tuesday status update, and there was a cake and everyone shouting. I had completely forgotten it was my work anniversary. I just stood there blinking." },
+    { "speaker": "Therapist", "text": "Caught you completely off guard! It must have been quite a shift from what you were expecting." },
+
+    { "speaker": "Client", "text": "I opened the fridge in the break room and the smell hit me instantly. Someone left a container in there for weeks—it was green and fuzzy. I had to cover my mouth to keep from gagging." },
+    { "speaker": "Therapist", "text": "That is a visceral reaction. It sounds incredibly unpleasant." }
+  ],
+  "metrics": ["emotion"]
+}

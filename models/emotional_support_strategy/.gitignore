@@ -1,0 +1,42 @@
+# Empathy Strategy model specific ignores
+# (Python common patterns are handled in root .gitignore)
+
+# Training outputs (too large for git)
+results/
+output/
+checkpoints/
+runs/
+logs/
+
+# Model files (should download from HuggingFace)
+strategy_model/*.safetensors
+strategy_model/*.bin
+strategy_model/*.pt
+strategy_model/*.pth
+!strategy_model/README.md
+!strategy_model/config.json
+!strategy_model/.gitkeep
+
+# Dataset files (download from official source)
+data/*.jsonl
+data/*.csv
+data/*.json
+!data/README.md
+!data/.gitkeep
+
+# Evaluation outputs
+evaluation_output/
+eval_results/
+
+# Deployment artifacts
+deployment/*.zip
+deployment/endpoint_*
+deployment/model_artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,30 @@
+# Empathy model specific ignores
+# (Python common patterns are handled in root .gitignore)
+
+# Model outputs (too large)
+output/*.pth
+output/*.pt
+output/*.bin
+output/*.safetensors
+
+# Dataset splits (can be regenerated)
+output/splits/*.csv
+output/*.csv
+
+# Dataset files (user should download separately)
+dataset/*.csv
+dataset/*.json
+!dataset/README.md
+!dataset/.gitkeep
+
+# Training logs
+*.log
+logs/
+
+# Jupyter notebooks (if not needed for documentation)
+*.ipynb
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/

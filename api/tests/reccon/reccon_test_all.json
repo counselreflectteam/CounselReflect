@@ -1,0 +1,22 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I feel joyful because I got promoted at work today." },
+    { "speaker": "Therapist", "text": "That’s wonderful—what about the promotion feels most exciting?" },
+
+    { "speaker": "Client", "text": "I feel sad because my best friend stopped talking to me after our argument." },
+    { "speaker": "Therapist", "text": "That sounds really painful—what do you miss most about that connection?" },
+
+    { "speaker": "Client", "text": "I feel angry because my coworker took credit for my work in front of the team." },
+    { "speaker": "Therapist", "text": "That would feel unfair—what went through your mind when it happened?" },
+
+    { "speaker": "Client", "text": "I feel fearful because I heard footsteps outside my door last night." },
+    { "speaker": "Therapist", "text": "That sounds scary—what about that moment felt most threatening?" },
+
+    { "speaker": "Client", "text": "I feel surprised because I suddenly got an email saying my flight was cancelled." },
+    { "speaker": "Therapist", "text": "That’s a big sudden change—what was your first reaction?" },
+
+    { "speaker": "Client", "text": "I feel disgusted because the bathroom was covered in grime and smelled rotten." },
+    { "speaker": "Therapist", "text": "That sounds awful—what part of it bothered you the most?" }
+  ],
+  "metrics": ["talk_type"]
+}

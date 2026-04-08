@@ -1,0 +1,25 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "I've been feeling really down lately, and I don't know why."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you're carrying a heavy sadness that's hard to explain."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "And that confusion about where it's coming from makes it even harder."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Exactly. It's just a fog."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "A fog that clouds everything."
+    }
+  ],
+  "metrics": ["pair"]
+}
