@@ -1,0 +1,287 @@
+{
+  "description": "Sample PAIR model outputs for different reflection quality levels",
+  "model": "PAIR (RoBERTa-base cross-encoder)",
+  "task": "Reflection quality scoring for Motivational Interviewing",
+  "output_format": {
+    "score": "Continuous value [0, 1]",
+    "quality_label": "Complex Reflection | Simple Reflection | Non-Reflection",
+    "confidence": "Model confidence [0, 1]"
+  },
+  "examples": [
+    {
+      "prompt": "I don't know if I can quit smoking.",
+      "response": "You're uncertain about your ability to quit, and that uncertainty is making this process feel overwhelming.",
+      "output": {
+        "score": 0.782,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.92
+      },
+      "explanation": "Adds meaning (uncertainty → overwhelming), explores underlying emotion"
+    },
+    {
+      "prompt": "I've been feeling really stressed at work lately.",
+      "response": "It sounds like work has been overwhelming for you.",
+      "output": {
+        "score": 0.673,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.89
+      },
+      "explanation": "Accurate rephrasing with basic understanding"
+    },
+    {
+      "prompt": "My family keeps nagging me about my drinking.",
+      "response": "Their constant pressure is adding to your stress rather than helping you feel supported.",
+      "output": {
+        "score": 0.815,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.94
+      },
+      "explanation": "Reframes situation, adds insight about pressure vs support"
+    },
+    {
+      "prompt": "I want to change, but it's so hard.",
+      "response": "Part of you is committed to making a change, while another part is struggling with how difficult that feels.",
+      "output": {
+        "score": 0.891,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.96
+      },
+      "explanation": "Reflects ambivalence, uses 'and' to link complex ideas"
+    },
+    {
+      "prompt": "I'm worried about my health.",
+      "response": "You're concerned about your health.",
+      "output": {
+        "score": 0.512,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.85
+      },
+      "explanation": "Basic rephrasing, stays close to surface meaning"
+    },
+    {
+      "prompt": "I've tried before and failed.",
+      "response": "Past setbacks are making this feel harder.",
+      "output": {
+        "score": 0.621,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.87
+      },
+      "explanation": "Reflects content with slight reframing (failed → setbacks)"
+    },
+    {
+      "prompt": "I don't think I can do this.",
+      "response": "Have you tried making a list of pros and cons?",
+      "output": {
+        "score": 0.234,
+        "quality_label": "Non-Reflection",
+        "confidence": 0.91
+      },
+      "explanation": "Closed question, shifts to advice-giving"
+    },
+    {
+      "prompt": "I'm not sure what to do.",
+      "response": "Why don't you just quit?",
+      "output": {
+        "score": 0.118,
+        "quality_label": "Non-Reflection",
+        "confidence": 0.93
+      },
+      "explanation": "Confrontational, minimizes client's ambivalence"
+    },
+    {
+      "prompt": "My partner doesn't support me.",
+      "response": "You should talk to them about it.",
+      "output": {
+        "score": 0.187,
+        "quality_label": "Non-Reflection",
+        "confidence": 0.88
+      },
+      "explanation": "Advice-giving, not a reflection"
+    },
+    {
+      "prompt": "I'm feeling overwhelmed.",
+      "response": "Tell me more about that.",
+      "output": {
+        "score": 0.312,
+        "quality_label": "Non-Reflection",
+        "confidence": 0.82
+      },
+      "explanation": "Open question (better than closed), but not a reflection"
+    }
+  ],
+  "edge_cases": [
+    {
+      "scenario": "Very short utterances",
+      "prompt": "I'm stressed.",
+      "response": "You feel stressed.",
+      "output": {
+        "score": 0.489,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.78
+      },
+      "note": "Short utterances provide less context, may have lower confidence"
+    },
+    {
+      "scenario": "Long, complex utterance",
+      "prompt": "I've been trying to quit smoking for years, but every time I get stressed at work or have a fight with my partner, I just reach for a cigarette. I know it's bad for me, but in the moment it feels like the only thing that helps.",
+      "response": "You've recognized a pattern where stress and conflict become triggers for smoking, and while you know it's harmful, in those moments smoking feels like your only coping mechanism.",
+      "output": {
+        "score": 0.867,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.95
+      },
+      "note": "Summarizes multiple elements, identifies pattern"
+    },
+    {
+      "scenario": "Reflection with question",
+      "prompt": "I don't know if I can change.",
+      "response": "You're uncertain about your ability to change, is that right?",
+      "output": {
+        "score": 0.547,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.81
+      },
+      "note": "Reflection + checking question; score between simple and complex"
+    },
+    {
+      "scenario": "Amplified reflection",
+      "prompt": "I'm a bit worried about this.",
+      "response": "This is really concerning for you.",
+      "output": {
+        "score": 0.724,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.89
+      },
+      "note": "Amplifies emotion (bit worried → really concerning)"
+    },
+    {
+      "scenario": "Double-sided reflection",
+      "prompt": "I want to quit, but I enjoy smoking.",
+      "response": "On one hand you want to quit, and on the other hand you get pleasure from smoking.",
+      "output": {
+        "score": 0.758,
+        "quality_label": "Complex Reflection",
+        "confidence": 0.91
+      },
+      "note": "Reflects ambivalence with both sides"
+    }
+  ],
+  "batch_example": {
+    "description": "Example batch request and response",
+    "request": {
+      "inputs": [
+        {
+          "prompt": "I don't know if I can quit.",
+          "response": "You're uncertain about quitting."
+        },
+        {
+          "prompt": "I'm stressed.",
+          "response": "That sounds really difficult."
+        },
+        {
+          "prompt": "I want to change.",
+          "response": "What's stopping you?"
+        }
+      ]
+    },
+    "response": [
+      {
+        "score": 0.523,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.86
+      },
+      {
+        "score": 0.645,
+        "quality_label": "Simple Reflection",
+        "confidence": 0.88
+      },
+      {
+        "score": 0.298,
+        "quality_label": "Non-Reflection",
+        "confidence": 0.84
+      }
+    ]
+  },
+  "quality_thresholds": {
+    "complex_reflection": {
+      "threshold": "> 0.7",
+      "description": "Adds meaning, explores deeper understanding, uses amplified or double-sided reflections"
+    },
+    "simple_reflection": {
+      "threshold": "0.4 - 0.7",
+      "description": "Accurate rephrasing, demonstrates basic understanding, maintains empathy"
+    },
+    "non_reflection": {
+      "threshold": "< 0.4",
+      "description": "Closed questions, advice-giving, confrontation, or off-topic responses"
+    }
+  },
+  "interpretation_guide": {
+    "score_ranges": [
+      {
+        "range": "0.85 - 1.0",
+        "label": "Excellent Complex Reflection",
+        "characteristics": [
+          "Deep empathetic understanding",
+          "Adds significant meaning",
+          "Explores underlying motivations/values",
+          "Encourages elaboration"
+        ]
+      },
+      {
+        "range": "0.7 - 0.85",
+        "label": "Good Complex Reflection",
+        "characteristics": [
+          "Adds some depth",
+          "Goes beyond surface content",
+          "Shows understanding of context"
+        ]
+      },
+      {
+        "range": "0.55 - 0.7",
+        "label": "Strong Simple Reflection",
+        "characteristics": [
+          "Accurate with some insight",
+          "Good empathetic connection",
+          "Maintains therapeutic relationship"
+        ]
+      },
+      {
+        "range": "0.4 - 0.55",
+        "label": "Basic Simple Reflection",
+        "characteristics": [
+          "Accurate rephrasing",
+          "Demonstrates understanding",
+          "Limited depth"
+        ]
+      },
+      {
+        "range": "0.25 - 0.4",
+        "label": "Weak Response",
+        "characteristics": [
+          "Open questions (not reflections)",
+          "Minimal empathetic content",
+          "Borderline MI adherent"
+        ]
+      },
+      {
+        "range": "0.0 - 0.25",
+        "label": "Non-Reflection",
+        "characteristics": [
+          "Closed questions",
+          "Advice-giving",
+          "Confrontational or judgmental",
+          "Not MI adherent"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Scores are continuous [0, 1], not discrete categories",
+    "Quality labels are derived from scores using thresholds",
+    "Confidence indicates model certainty (higher is better)",
+    "Batch processing is more efficient than individual requests",
+    "Model trained on MI conversations; may need adaptation for other counseling styles",
+    "Very short utterances may have lower confidence scores"
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "file": "samples/sample2.json",
+  "timestamp": "2026-02-26T22:06:09.641761",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "evaluator_results": {
+    "results": {
+      "perspective": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {
+              "perspective": {
+                "type": "numerical",
+                "value": 0.041172907,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "all_attributes": {
+                  "toxicity": 0.041172907,
+                  "severe_toxicity": 0.0016117096,
+                  "identity_attack": 0.007029593,
+                  "insult": 0.011198899,
+                  "profanity": 0.019143965,
+                  "threat": 0.009023022
+                },
+                "metadata": {
+                  "removed_unsupported_attributes": []
+                }
+              }
+            }
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "perspective": {
+                "type": "numerical",
+                "value": 0.37576625,
+                "max_value": 1.0,
+                "label": "Medium",
+                "direction": "lower_is_better",
+                "all_attributes": {
+                  "toxicity": 0.37576625,
+                  "severe_toxicity": 0.023076924,
+                  "identity_attack": 0.037136484,
+                  "insult": 0.10587067,
+                  "profanity": 0.10611444,
+                  "threat": 0.44185185
+                },
+                "metadata": {
+                  "removed_unsupported_attributes": []
+                }
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "emotion": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {
+              "emotion": {
+                "type": "categorical",
+                "label": "neutral",
+                "confidence": 0.580088198184967,
+                "all_emotions": {
+                  "neutral": 0.580088198184967,
+                  "surprise": 0.3430041968822479,
+                  "joy": 0.027189699932932854,
+                  "sadness": 0.01895745098590851,
+                  "anger": 0.015889737755060196,
+                  "fear": 0.0,
+                  "disgust": 0.0
+                }
+              }
+            }
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "emotion": {
+                "type": "categorical",
+                "label": "neutral",
+                "confidence": 0.5238680839538574,
+                "all_emotions": {
+                  "neutral": 0.5238680839538574,
+                  "disgust": 0.1760861873626709,
+                  "sadness": 0.15885980427265167,
+                  "anger": 0.05803653225302696,
+                  "fear": 0.041535165160894394,
+                  "joy": 0.0,
+                  "surprise": 0.0
+                }
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "empathy_ex": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "empathy_ex": {
+                "type": "categorical",
+                "label": "Low",
+                "confidence": 0.9456518292427063,
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "empathy_er": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "empathy_er": {
+                "type": "categorical",
+                "label": "Low",
+                "confidence": 0.9531257152557373,
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "pair": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "pair": {
+                "type": "numerical",
+                "value": 0.0002861774410121143,
+                "max_value": 1.0,
+                "label": "Reflection Quality",
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "toxicity": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {
+              "toxicity_toxicity": {
+                "type": "numerical",
+                "value": 0.0012124100467190146,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_severe_toxicity": {
+                "type": "numerical",
+                "value": 2.1222913346718997e-06,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_obscene": {
+                "type": "numerical",
+                "value": 9.355675138067454e-05,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_identity_attack": {
+                "type": "numerical",
+                "value": 0.00010636210208758712,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_insult": {
+                "type": "numerical",
+                "value": 0.00023276160936802626,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_threat": {
+                "type": "numerical",
+                "value": 4.5913184294477105e-05,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_sexual_explicit": {
+                "type": "numerical",
+                "value": 2.2874806745676324e-05,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "is_toxic": {
+                "type": "categorical",
+                "label": "Safe",
+                "confidence": 0.0012124100467190146
+              }
+            }
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "toxicity_toxicity": {
+                "type": "numerical",
+                "value": 0.2130565643310547,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_severe_toxicity": {
+                "type": "numerical",
+                "value": 5.347898695617914e-05,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_obscene": {
+                "type": "numerical",
+                "value": 0.0021100863814353943,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_identity_attack": {
+                "type": "numerical",
+                "value": 0.002488080644980073,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_insult": {
+                "type": "numerical",
+                "value": 0.011654389090836048,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_threat": {
+                "type": "numerical",
+                "value": 0.06303680688142776,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "toxicity_sexual_explicit": {
+                "type": "numerical",
+                "value": 0.0006013663369230926,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "lower_is_better",
+                "highlighted_text": null
+              },
+              "is_toxic": {
+                "type": "categorical",
+                "label": "Safe",
+                "confidence": 0.2130565643310547
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "fact_score": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "fact_score": {
+                "type": "numerical",
+                "value": 0.0,
+                "max_value": 1.0,
+                "label": "Low",
+                "direction": "higher_is_better",
+                "highlighted_text": null,
+                "reasoning": [
+                  "Unsupported: Here are the independent facts broken down from the sentence:...",
+                  "Unsupported: Quick weight loss is not healthy....",
+                  "Unsupported: Starving yourself is an option for weight loss....",
+                  "Unsupported: Using laxatives is an option for weight loss....",
+                  "Unsupported: The speaker does not recommend using laxatives for weight loss...."
+                ]
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "reccon": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {
+              "reccon": {
+                "type": "categorical",
+                "label": "Neutral",
+                "confidence": 1.0,
+                "highlighted_text": "lose, weight, quickess",
+                "triggers": [
+                  "lose",
+                  "weight",
+                  "quickess"
+                ]
+              }
+            }
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "reccon": {
+                "type": "categorical",
+                "label": "Neutral",
+                "confidence": 1.0,
+                "highlighted_text": "starve, never healthy, do not recommend",
+                "triggers": [
+                  "starve",
+                  "never healthy",
+                  "do not recommend"
+                ]
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      }
+    },
+    "status": "success",
+    "message": null
+  },
+  "literature_results": {
+    "results": {
+      "Empathy": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "Empathy": {
+                "type": "numerical",
+                "value": 1.0,
+                "max_value": 5.0,
+                "label": null,
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "Therapeutic Alliance": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "Therapeutic Alliance": {
+                "type": "numerical",
+                "value": 1.0,
+                "max_value": 5.0,
+                "label": null,
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "Therapist Genuineness": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "Therapist Genuineness": {
+                "type": "numerical",
+                "value": 2.0,
+                "max_value": 5.0,
+                "label": null,
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "Alliance Rupture Repair": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "Alliance Rupture Repair": {
+                "type": "numerical",
+                "value": 1.0,
+                "max_value": 5.0,
+                "label": null,
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      },
+      "Therapist Self-Disclosure": {
+        "granularity": "utterance",
+        "overall": null,
+        "per_utterance": [
+          {
+            "index": 0,
+            "metrics": {}
+          },
+          {
+            "index": 1,
+            "metrics": {
+              "Therapist Self-Disclosure": {
+                "type": "numerical",
+                "value": 1.0,
+                "max_value": 5.0,
+                "label": null,
+                "direction": "higher_is_better",
+                "highlighted_text": null
+              }
+            }
+          }
+        ],
+        "per_segment": null
+      }
+    },
+    "status": "success",
+    "message": null,
+    "metrics_evaluated": 5,
+    "total_metrics": 5
+  },
+  "errors": []
+}

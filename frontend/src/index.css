@@ -1,0 +1,631 @@
+@import "tailwindcss";
+@source "./**/*.{ts,tsx,js,jsx}";
+@source "../../shared/src/**/*.{ts,tsx,js,jsx}";
+
+/* Calm evidence workspace: a human research instrument, not a generic SaaS
+   dashboard. Soft cobalt and mist-blue surfaces carry the brand while green
+   is reserved for trust/success and metric families retain their own hues. */
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Source Serif 4", ui-serif, Georgia, serif;
+  --font-note: "Source Serif 4", ui-serif, Georgia, serif;
+  --font-reading: Georgia, "Times New Roman", serif;
+
+  /* Brand — Tailwind blue (cobalt). The old muted azure ramp is dead. */
+  --color-brand-50: #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #93C5FD;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #3B82F6;
+  --color-brand-600: #2563EB;
+  --color-brand-700: #1D4ED8;
+  --color-brand-800: #1E40AF;
+  --color-brand-900: #1E3A8A;
+  --color-brand-950: #172554;
+
+  /* Success CONFIRMATION only — a transient outcome that just happened
+     (evaluation finished, key validated this moment). NEVER for steady state:
+     ready / active / complete / configured / selected render as neutral ink
+     + plain check glyph. Logo leaf-green override — keep AS-IS. */
+  --color-emerald-50: #edf8f1;
+  --color-emerald-100: #d3f0dc;
+  --color-emerald-200: #a8e1bb;
+  --color-emerald-300: #74cd94;
+  --color-emerald-400: #46b06d;
+  --color-emerald-500: #2f9a55;
+  --color-emerald-600: #257f44;
+  --color-emerald-700: #1f6638;
+  --color-emerald-800: #1d532f;
+  --color-emerald-900: #1a4528;
+  --color-emerald-950: #0c2715;
+
+  --color-ink: #172033;
+
+  /* Shadows: none in normal flow. --shadow-soft retired (kept as a no-op so
+     legacy shadow-soft utilities render nothing). --shadow-lift is THE one
+     soft shadow, reserved for modals/popovers only. */
+  --shadow-soft: 0 1px 2px rgba(22, 32, 30, 0.04), 0 10px 30px rgba(22, 32, 30, 0.05);
+  --shadow-lift: 0 18px 48px -24px rgba(22, 32, 30, 0.32);
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/* ───────────────────────────── Rhythm scale (§ spacing) ─────────────────────
+   Structural steps: 4 / 8 / 12 / 16 / 24 ‖ 48 / 64px — 32px is retired as a
+   structural step. Nothing inside a zone exceeds 24px; nothing between zones
+   is under 48px (labeled-divider recipe: border-t + pt-6 pb-12). Bordered
+   16px-radius cards ONLY for: modals, popovers, dropdown menus, access gate,
+   empty states, sticky bars. */
+
+:root {
+  color-scheme: light;
+  --cr-shell: #ffffff;
+  --cr-bg: #ffffff;
+  --cr-card: #ffffff;
+  --cr-card-border: #e4e6e8;
+  --cr-input-border: #c5c9cf;
+  --cr-card-shadow: none;
+  --cr-muted: #f6f7f8;
+  --cr-accent-surface: #e8f1ff;
+  --cr-rule-on-muted: #e3e5e8;
+  --cr-ring: rgba(37, 99, 235, 0.32);
+  --cr-ink: #172033;
+  --cr-ink-2: #56647a;
+  --cr-ink-3: #6c7890;
+  --cr-brand-primary: #2f6ed3;
+  --cr-brand-primary-strong: #1f519f;
+  --cr-brand-primary-soft: #e6eefc;
+  --cr-brand-leaf: #327a65;
+  --cr-brand-leaf-strong: #235f50;
+  --cr-brand-leaf-soft: #e1f0e9;
+  --cr-brand-coral: #c86555;
+  --cr-sketch-blue: #176BFF;
+  --cr-sketch-blue-wash: #DCEAFF;
+  --cr-sketch-blue-soft: #EAF3FF;
+  --cr-sketch-cyan: #12BFD0;
+  --cr-sketch-coral: #F04F68;
+  --cr-sketch-ink: #12305A;
+  --cr-sketch-paper: #FFFBE8;
+  --cr-sketch-yellow: #FFF2B0;
+  --cr-sketch-pink: #FFE2E8;
+  --cr-sketch-gold-ink: #B56B00;
+  --cr-slab: #1f519f;
+  --cr-slab-border: #1f519f;
+  --cr-slab-ink: #FFFFFF;                      /* titles on the accent slab */
+  --cr-slab-ink-2: rgba(255, 255, 255, 0.80);  /* descriptions/meta on the accent slab */
+  /* METRIC-FAMILY identity inks — the ONLY licensed non-blue vivid accents.
+     iris = model-based (research-trained); magenta = rubric-based
+     (literature-derived); custom = no color. Text-ink and ≤24px ticks only.
+     Never interactive, never a fill, never in the sidebar, never near
+     verdict/error surfaces. One hue, one meaning. */
+  --cr-accent-iris: #7C3AED;
+  --cr-accent-magenta: #A21CAF;
+}
+
+.dark {
+  color-scheme: dark;
+  --cr-shell: #0e1624;
+  --cr-bg: #121c2c;
+  --cr-card: #18253a;
+  --cr-card-border: #2e405e;
+  --cr-input-border: #50627e;
+  --cr-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.18), 0 12px 32px rgba(0, 0, 0, 0.16);
+  --cr-muted: #202f46;
+  --cr-accent-surface: #172b4b;
+  --cr-rule-on-muted: #354966;
+  --cr-ring: rgba(59, 130, 246, 0.45);
+  --cr-ink: #f2f6fc;
+  --cr-ink-2: #bdc8d9;
+  --cr-ink-3: #9daac0;
+  --cr-brand-primary: #78a8f8;
+  --cr-brand-primary-strong: #b5d0ff;
+  --cr-brand-primary-soft: #1a3155;
+  --cr-brand-leaf: #75c0a6;
+  --cr-brand-leaf-strong: #9bd2be;
+  --cr-brand-leaf-soft: #1b3930;
+  --cr-brand-coral: #ec9b8e;
+  --cr-sketch-blue: #78A8F8;
+  --cr-sketch-blue-wash: #20385D;
+  --cr-sketch-blue-soft: #1D3352;
+  --cr-sketch-cyan: #37D3E3;
+  --cr-sketch-coral: #FF8798;
+  --cr-sketch-ink: #D8E7FF;
+  --cr-sketch-paper: #172238;
+  --cr-sketch-yellow: #5A4815;
+  --cr-sketch-pink: #542634;
+  --cr-sketch-gold-ink: #FFD166;
+  --cr-slab: #1b4688;
+  --cr-slab-border: #3769b2;
+  --cr-slab-ink: #FFFFFF;
+  --cr-slab-ink-2: rgba(255, 255, 255, 0.80);
+  /* METRIC-FAMILY identity inks, dark — 400-level counterparts, same contract. */
+  --cr-accent-iris: #A78BFA;
+  --cr-accent-magenta: #E879F9;
+}
+
+/* ───────────────────────────── Base ───────────────────────────── */
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-sans);
+  color: var(--cr-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cr-shell);
+  font-feature-settings: "cv02", "cv03", "cv04", "ss01";
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100dvh;
+}
+
+*,
+*::before,
+*::after {
+  letter-spacing: 0 !important;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.20);
+}
+.dark ::selection {
+  background: rgba(96, 165, 250, 0.30);
+}
+
+/* Scrollbars — neutral ink, no brand tint */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 20, 25, 0.18);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(231, 233, 234, 0.18);
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 20, 25, 0.32);
+  background-clip: content-box;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(231, 233, 234, 0.30);
+  background-clip: content-box;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(15, 20, 25, 0.18);
+  border-radius: 9999px;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(231, 233, 234, 0.18);
+}
+
+/* Component helpers live in the components layer so call-site utilities
+   (h-9, px-4, font-extrabold, …) can override the defaults below. */
+@layer components {
+  /* ─────────────────────── Typography helpers ───────────────────────
+     Scale contract: hero 44-56px/800 (call sites add text-… font-extrabold);
+     app page title 28-32px/700; section title 18-20px/700; body 15px/400;
+     secondary 13px ink-2; caption 12px ink-3. Weights: 400/700 (800 hero). */
+  .cr-display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+
+  .cr-page-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: 0;
+  }
+
+  .cr-brand {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .cr-editorial {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: 0;
+  }
+
+  /* USAGE RULE: page-level header only — exactly one per page, or zero.
+     Contract: .cr-kicker = cobalt + dash, answers "where am I in the app";
+     .cr-eyebrow = grey, plain, repeatable, answers "what is this zone for". */
+  .cr-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--cr-brand-primary);
+  }
+  .dark .cr-kicker {
+    color: var(--cr-brand-primary);
+  }
+  .cr-kicker::before { display: none; }
+
+  /* ZONE EYEBROW — repeatable wayfinding label above every zone title.
+     Quiet caps: no dash, no icon. Grey always at header sites; category
+     labels INSIDE metric cards may tint via the --cr-eyebrow-ink fallback.
+     ink-2, NOT ink-3 (ink-3 fails AA at 11px in both modes). */
+  .cr-eyebrow {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--cr-eyebrow-ink, var(--cr-ink-2));  /* metric-card category labels tint via --cr-eyebrow-ink */
+    font-variant-numeric: tabular-nums;  /* for STEP numerals */
+  }
+
+  /* Section heading — bold title, optional one-line ink-2 description under
+     it. THE replacement for every icon-tile header. */
+  .cr-section-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: 0;
+    color: var(--cr-ink);
+  }
+
+  .cr-category-title {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+  }
+
+  .cr-hand-note {
+    font-family: var(--font-note);
+    font-size: 0.8125rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: 0;
+    color: var(--cr-brand-primary-strong);
+  }
+
+  .cr-source-title {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+  }
+
+  .cr-reading {
+    font-family: var(--font-reading);
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: 0;
+  }
+
+  /* Quiet meta/status line: */
+  .cr-meta {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cr-ink-2);
+  }
+
+  /* Text link — cobalt, underline on hover: */
+  .cr-link {
+    color: var(--color-brand-600);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .cr-link:hover {
+    text-decoration: underline;
+  }
+  .dark .cr-link {
+    color: var(--color-brand-400);
+  }
+
+  /* Text tab (replaces card-tabs): */
+  .cr-tab {
+    padding: 0 0.25rem 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cr-ink-2);
+    border-bottom: 2px solid transparent;
+  }
+  .cr-tab:hover {
+    color: var(--cr-ink);
+  }
+  .cr-tab[aria-selected="true"],
+  .cr-tab.is-active {
+    font-weight: 700;
+    color: var(--cr-ink);
+    border-bottom-color: var(--color-brand-600);
+  }
+  .dark .cr-tab.is-active,
+  .dark .cr-tab[aria-selected="true"] {
+    border-bottom-color: var(--color-brand-400);
+  }
+
+  /* ─────────────────────── Surfaces ───────────────────────
+     True cards = 16px radius, hairline border, NO shadow. Allowed only for
+     modals, popovers, dropdown menus, access gate, empty states — everything
+     else separates with hairline dividers + whitespace. */
+  .cr-card {
+    background: var(--cr-card);
+    border: 1px solid var(--cr-card-border);
+    border-radius: 0.5rem;
+    box-shadow: var(--cr-card-shadow);
+  }
+
+  /* Hover-reactive card — border deepens to input-border, no motion */
+  .cr-card-interactive {
+    background: var(--cr-card);
+    border: 1px solid var(--cr-card-border);
+    border-radius: 0.5rem;
+    box-shadow: var(--cr-card-shadow);
+    transition: border-color 150ms ease;
+  }
+  .cr-card-interactive:hover {
+    border-color: var(--cr-input-border);
+  }
+
+  /* X-style MODULE — borderless muted container for one functionally
+     self-contained interactive block (the "What's happening" box).
+     NOT a card: no border, no shadow. Padding lives at call sites:
+     web p-5 md:p-6, extension p-4. Never nested inside another module. */
+  .cr-module {
+    background: var(--cr-card);
+    border: 1px solid var(--cr-card-border);
+    border-radius: 0.375rem;
+    box-shadow: none;
+  }
+
+  /* ZONE OPENER — the section threshold. Not a box: a full-width hairline
+     marks the boundary; a short 28×2px cobalt overscore sits ON the rule's
+     left end — the section-grade sibling of .cr-kicker's dash (one family
+     of marks, two scales). Same mark at every site, every zone: hue never
+     codes chapters. Typography and whitespace do the rest. */
+  .cr-opener {
+    position: relative;
+    border-top: 1px solid var(--cr-card-border);
+    padding-top: 1.25rem;
+  }
+  .cr-opener::before { display: none; }
+
+  /* ACCENT MODULE — the ONE cobalt-signal slab per page (the action the page
+     exists for): the ink slab with the cobalt signal + eyebrow baked in.
+     Call sites keep their markup and swap text colors to the slab inks
+     (--cr-slab-ink / --cr-slab-ink-2). Never more than one accent module per
+     view. Semantic verdict panels are NOT accent modules and don't spend
+     this budget. */
+  .cr-module-accent {
+    --cr-slab-signal: #8db7ff;
+    --cr-eyebrow-ink: #c5d9ff;
+    background: var(--cr-slab);
+    border: 1px solid var(--cr-slab-border);
+    border-radius: 0.375rem;
+    box-shadow: inset 3px 0 0 0 var(--cr-slab-signal);
+  }
+  .cr-module-accent .cr-section-title {
+    color: var(--cr-slab-ink);
+  }
+
+  /* WELL — inputs / code / tables / composers sitting INSIDE a module.
+     Punches back through the tint to the canvas (white light / black dark). */
+  .cr-well {
+    background: var(--cr-bg);
+    border: 1px solid var(--cr-input-border);
+    border-radius: 0.375rem;
+  }
+
+  /* Inset / muted panel — borderless tint, input radius (8px).
+     ARTIFACT SCALE ONLY: small code/quote insets sitting directly on white.
+     BANNED inside modules (use .cr-well) and as a zone container
+     (use .cr-module). */
+  .cr-panel {
+    background: var(--cr-muted);
+    border: 0;
+    border-radius: 0.375rem;
+  }
+
+  /* Glass chrome — ALLOWED ONLY on TopBar + BottomNav. Sticky action bars and
+     sidebar use solid var(--cr-card). */
+  .cr-glass {
+    background: var(--cr-card);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-color: var(--cr-card-border);
+  }
+
+  /* Hairline divider */
+  .cr-rule {
+    height: 1px;
+    background: var(--cr-card-border);
+    border: 0;
+  }
+
+  /* ─────────────────────── Buttons ───────────────────────
+     Pill, semibold, colors-only transition. Default size h-10 px-5; compact
+     call sites override with h-9 px-4. */
+  .cr-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 2.5rem;      /* h-10 */
+    padding: 0 1.25rem;  /* px-5 */
+    border-radius: 0.375rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .cr-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    transform: none;
+  }
+
+  .cr-btn-primary {
+    color: #fff;
+    background: var(--color-brand-600);
+    box-shadow: none;
+  }
+  .cr-btn-primary:hover:not(:disabled) {
+    background: var(--color-brand-700);
+  }
+
+  .cr-btn-secondary {
+    color: var(--cr-ink);
+    background: transparent;
+    border: 1px solid var(--cr-input-border);
+  }
+  .cr-btn-secondary:hover:not(:disabled) {
+    background: var(--cr-muted);
+  }
+
+  .cr-btn-ghost {
+    color: var(--color-brand-600);
+    background: transparent;
+    border: 0;
+  }
+  .cr-btn-ghost:hover:not(:disabled) {
+    background: var(--color-brand-50);
+  }
+  .dark .cr-btn-ghost {
+    color: var(--color-brand-400);
+  }
+  .dark .cr-btn-ghost:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--color-brand-950) 40%, transparent);
+  }
+
+  /* Destructive — rose text on the secondary shape */
+  .cr-btn-danger {
+    color: var(--color-rose-600);
+    background: transparent;
+    border: 1px solid var(--cr-input-border);
+  }
+  .cr-btn-danger:hover:not(:disabled) {
+    background: var(--cr-muted);
+  }
+  .dark .cr-btn-danger {
+    color: var(--color-rose-500);
+  }
+
+  /* ─────────────────────── Chips ───────────────────────
+     Quiet pill badge — genuine state badges only (success emerald / error
+     rose / warning amber via call-site tint + text utilities), plus metric
+     family/target tags. Tinted bg, colored text, NO border, 12px/600.
+     Max one per row/header. Never decoration. */
+  .cr-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border: 0;
+    background: var(--cr-muted);
+    color: var(--cr-ink-2);
+    border-radius: 9999px;
+    padding: 0.125rem 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+}
+
+/* ───────────────────────────── Focus ─────────────────────────────
+   Unlayered on purpose so the ring can never lose to a shadow utility. */
+.cr-focus:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--cr-ring);
+}
+
+/* Focus ring for controls whose focusable element is a hidden descendant
+   (e.g. a label wrapping an sr-only file input). */
+.cr-focus-within:has(:focus-visible) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--cr-ring);
+}
+
+/* ───────────────────────────── Motion ─────────────────────────────
+   Exactly one primitive: cr-enter on route-level containers.
+   No hover-lift transforms anywhere. */
+@keyframes cr-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes cr-rubric-doodle-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes cr-rubric-doodle-accent {
+  from { opacity: 0; stroke-dashoffset: 1; }
+  to { opacity: 1; stroke-dashoffset: 0; }
+}
+
+.cr-rubric-doodle-ghost { opacity: 0.14; }
+.cr-rubric-doodle-line,
+.cr-rubric-doodle-accent {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+.cr-rubric-doodle-accent { stroke: var(--cr-sketch-coral, #F04F68); }
+.cr-rubric-doodle[data-animated="true"] .cr-rubric-doodle-line {
+  animation: cr-rubric-doodle-draw 360ms cubic-bezier(.22,.72,.25,1) both;
+  animation-delay: calc(var(--cr-doodle-index, 0) * 70ms);
+}
+.cr-rubric-doodle[data-animated="true"] .cr-rubric-doodle-accent {
+  animation: cr-rubric-doodle-accent 220ms ease-out both;
+  animation-delay: calc(220ms + var(--cr-doodle-index, 0) * 65ms);
+}
+.cr-enter {
+  animation: cr-enter 180ms ease-out both;
+}
+
+@keyframes cr-intake-panel-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.cr-intake-panel:not([hidden]) {
+  animation: cr-intake-panel-enter 140ms ease-out both;
+}
+
+/* Interaction primitives — color transitions only, no transforms */
+.cr-control {
+  transition: border-color 170ms ease, background-color 170ms ease,
+    box-shadow 180ms ease, color 170ms ease;
+}
+
+.cr-interactive-row {
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cr-enter,
+  .cr-intake-panel {
+    animation: none !important;
+  }
+  .cr-rubric-doodle-line,
+  .cr-rubric-doodle-accent {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,1313 @@
+[
+  {
+    "metric_name": "Empathy",
+    "definition": "Understands and communicates understanding of the client's emotional state.",
+    "why_this_matters": "The strongest consistent predictor of therapeutic outcomes; it reduces client isolation, fosters safety, and encourages deeper self-disclosure.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10157460/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795635/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10980701/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5513642/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8557158/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Empathy, assess the quality of the response.\n\nDefinition: \nUnderstands and communicates understanding of the client's emotional state.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores, dismisses, or minimizes the client's emotional state; responds with coldness or judgment.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Acknowledges explicit emotions but misses deeper or implicit feelings; responses are somewhat generic or repetitive.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Accurately identifies and articulates complex emotions and underlying needs; validates the client's experience deeply and compassionately.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Ignores, dismisses, or minimizes the client's emotional state; responds with coldness or judgment.",
+    "level_3_description": "Acknowledges explicit emotions but misses deeper or implicit feelings; responses are somewhat generic or repetitive.",
+    "level_5_description": "Accurately identifies and articulates complex emotions and underlying needs; validates the client's experience deeply and compassionately."
+  },
+  {
+    "metric_name": "Therapeutic Alliance",
+    "definition": "Establishes collaborative trust, mutual understanding, and agreement on goals and tasks between client and therapist.",
+    "why_this_matters": "Represents the collaborative bond and agreement on tasks/goals; a strong alliance is the most robust predictor of treatment success across all modalities.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6852168/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493237/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3198542/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4219056/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730901/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Therapeutic Alliance, assess the quality of the response.\n\nDefinition: \nEstablishes collaborative trust, mutual understanding, and agreement on goals and tasks between client and therapist.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Creates friction or mistrust; fails to collaborate on goals or tasks.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Establishes a basic rapport but lacks deep collaboration or clear agreement on goals.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Establishes a strong, collaborative bond with deep mutual trust and clear, shared agreement on therapeutic goals.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Creates friction or mistrust; fails to collaborate on goals or tasks.",
+    "level_3_description": "Establishes a basic rapport but lacks deep collaboration or clear agreement on goals.",
+    "level_5_description": "Establishes a strong, collaborative bond with deep mutual trust and clear, shared agreement on therapeutic goals."
+  },
+  {
+    "metric_name": "Therapist Genuineness",
+    "definition": "Exhibits authenticity, transparency, and integration in the therapeutic relationship, matching their inner experience with their external expression without hiding behind a professional facade.",
+    "why_this_matters": "Builds trust and models authentic communication; clients are more likely to be open when they perceive the therapist is not \"putting on a facade.\"",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4592639/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9327163/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755152/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7579357/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325357/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Therapist Genuineness, assess the quality of the response.\n\nDefinition: \nExhibits authenticity, transparency, and integration in the therapeutic relationship, matching their inner experience with their external expression without hiding behind a professional facade.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Appears robotic, fake, or overly guarded; hides behind a professional facade.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Appears mostly sincere but occasionally relies on scripted or professionalized language; avoids acknowledging uncertainty or limits.”\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Exhibits complete authenticity and transparency; matches inner experience with external expression naturally.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Appears robotic, fake, or overly guarded; hides behind a professional facade.",
+    "level_3_description": "Appears mostly sincere but occasionally relies on scripted or professionalized language; avoids acknowledging uncertainty or limits.”",
+    "level_5_description": "Exhibits complete authenticity and transparency; matches inner experience with external expression naturally."
+  },
+  {
+    "metric_name": "Unconditional Positive Regard",
+    "definition": "Offers complete, non-judgmental acceptance and support of the client, regardless of what the client says or does, creating a safe environment for growth.",
+    "why_this_matters": "Creates a non-judgmental environment that reduces client shame and defensiveness, allowing for the exploration of difficult or taboo topics.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3930779/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3679190/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7385226/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4873100/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9645675/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Unconditional Positive Regard, assess the quality of the response.\n\nDefinition: \nOffers complete, non-judgmental acceptance and support of the client, regardless of what the client says or does, creating a safe environment for growth.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Expresses judgment, criticism, or disapproval of the client's thoughts or behaviors.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers acceptance generally but shows subtle judgment or hesitation with difficult topics.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Offers unwavering, non-judgmental acceptance and warmth, creating a totally safe environment for any disclosure.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Expresses judgment, criticism, or disapproval of the client's thoughts or behaviors.",
+    "level_3_description": "Offers acceptance generally but shows subtle judgment or hesitation with difficult topics.",
+    "level_5_description": "Offers unwavering, non-judgmental acceptance and warmth, creating a totally safe environment for any disclosure."
+  },
+  {
+    "metric_name": "Therapist Validation",
+    "definition": "Acknowledges and communicates the legitimacy and understandability of a client's emotional and psychological experiences, affirming their feelings without necessarily agreeing with their conclusions.",
+    "why_this_matters": "emotional arousal and validates the client's reality, which is essential for de-escalation (especially in DBT) and building trust.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7049904/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9116024/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9006141/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9614309/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12603929/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Therapist Validation, assess the quality of the response.\n\nDefinition: \nAcknowledges and communicates the legitimacy and understandability of a client's emotional and psychological experiences, affirming their feelings without necessarily agreeing with their conclusions.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Invalidates, corrects, or argues with the client's emotional reality.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Validates the client's feelings superficially but may miss the validity of their broader perspective.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Communicates a deep understanding of why the client's experience is legitimate and understandable given their context.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Invalidates, corrects, or argues with the client's emotional reality.",
+    "level_3_description": "Validates the client's feelings superficially but may miss the validity of their broader perspective.",
+    "level_5_description": "Communicates a deep understanding of why the client's experience is legitimate and understandable given their context."
+  },
+  {
+    "metric_name": "Reflective Listening",
+    "definition": "Actively paraphrases or summarizes the client's words and underlying emotions to demonstrate understanding, validate experience, and foster connection.",
+    "why_this_matters": "Confirms the therapist understands the client's message accurately and encourages the client to elaborate or correct misconceptions.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11822820/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12101230/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3226338/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677012/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5018199/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Reflective Listening, assess the quality of the response.\n\nDefinition: \nActively paraphrases or summarizes the client's words and underlying emotions to demonstrate understanding, validate experience, and foster connection.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Fails to reflect or parrots back words without understanding; frequently interrupts.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Paraphrases content accurately but misses the emotional tone or underlying meaning.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Skillfully synthesizes content and emotion, demonstrating deep understanding and encouraging further exploration.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Fails to reflect or parrots back words without understanding; frequently interrupts.",
+    "level_3_description": "Paraphrases content accurately but misses the emotional tone or underlying meaning.",
+    "level_5_description": "Skillfully synthesizes content and emotion, demonstrating deep understanding and encouraging further exploration."
+  },
+  {
+    "metric_name": "Socratic Questioning",
+    "definition": "Helps clients identify, examine, and modify maladaptive thoughts and beliefs through a series of graded, open-ended questions that encourage self-reflection and independent insight.    Primarily used within CBT and related cognitive therapies",
+    "why_this_matters": "Promotes critical thinking and cognitive restructuring (CBT) by guiding the client to discover answers themselves rather than being told.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6917464/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557457/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4174386/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10979789/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Socratic Questioning, assess the quality of the response.\n\nDefinition: \nHelps clients identify, examine, and modify maladaptive thoughts and beliefs through a series of graded, open-ended questions that encourage self-reflection and independent insight.    Primarily used within CBT and related cognitive therapies\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Lectures or tells the client the answer instead of guiding them; asks leading or closed questions.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks questions that prompt some thought but may be too directive or fail to deepen insight.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Uses a masterful series of graded, open-ended questions that guide the client to independent and profound insights.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Lectures or tells the client the answer instead of guiding them; asks leading or closed questions.",
+    "level_3_description": "Asks questions that prompt some thought but may be too directive or fail to deepen insight.",
+    "level_5_description": "Uses a masterful series of graded, open-ended questions that guide the client to independent and profound insights."
+  },
+  {
+    "metric_name": "Alliance Rupture Repair",
+    "definition": "Identifies and resolves tensions or breakdowns in the therapeutic alliance (withdrawal or confrontation), which is critical for maintaining collaboration and achieving positive outcomes.",
+    "why_this_matters": "Critical for retention; successfully repairing misunderstandings can actually strengthen the bond more than if no rupture had occurred.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11964789/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5966286/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7451395/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3921691/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303925/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Alliance Rupture Repair, assess the quality of the response.\n\nDefinition: \nIdentifies and resolves tensions or breakdowns in the therapeutic alliance (withdrawal or confrontation), which is critical for maintaining collaboration and achieving positive outcomes.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores or exacerbates tension; becomes defensive or blaming when the relationship is strained.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Notices tension but addresses it awkwardly or superficially; repair attempts are only partially successful.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Immediately identifies and skillfully addresses tension; uses the rupture as an opportunity to strengthen the bond.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Relationship Repair",
+    "target": "therapist",
+    "level_1_description": "Ignores or exacerbates tension; becomes defensive or blaming when the relationship is strained.",
+    "level_3_description": "Notices tension but addresses it awkwardly or superficially; repair attempts are only partially successful.",
+    "level_5_description": "Immediately identifies and skillfully addresses tension; uses the rupture as an opportunity to strengthen the bond."
+  },
+  {
+    "metric_name": "Therapist Self-Disclosure",
+    "definition": "Intentionally reveals personal information, thoughts, or feelings to the client, used strategically to build trust, normalize experiences, and strengthen the alliance when appropriate.",
+    "why_this_matters": "When used judiciously, it can normalize the client's experience, strengthen the alliance, and model coping, though overuse can shift focus away from the client.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12634898/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12203889/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11572587/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11936366/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3330553/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Therapist Self-Disclosure, assess the quality of the response.\n\nDefinition: \nIntentionally reveals personal information, thoughts, or feelings to the client, used strategically to build trust, normalize experiences, and strengthen the alliance when appropriate.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Over-shares irrelevant personal details that shift focus to the therapist, or remains rigidly opaque.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Shares personal information occasionally but timing or relevance is sometimes questionable.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Shares personal insights strategically and sparingly to normalize experience or strengthen the alliance, keeping focus on the client.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Relationship Repair",
+    "target": "therapist",
+    "level_1_description": "Over-shares irrelevant personal details that shift focus to the therapist, or remains rigidly opaque.",
+    "level_3_description": "Shares personal information occasionally but timing or relevance is sometimes questionable.",
+    "level_5_description": "Shares personal insights strategically and sparingly to normalize experience or strengthen the alliance, keeping focus on the client."
+  },
+  {
+    "metric_name": "Goal Consensus",
+    "definition": "Fosters explicit agreement and cooperative alignment with the client regarding the specific aims, objectives, and methods of the therapy, serving as a foundational component of the working alliance.",
+    "why_this_matters": "Ensures therapist and client are pulling in the same direction; lack of consensus is a primary reason for treatment failure and dropout.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12632071/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807176/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7754282/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4592639/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12065060/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Goal Consensus, assess the quality of the response.\n\nDefinition: \nFosters explicit agreement and cooperative alignment with the client regarding the specific aims, objectives, and methods of the therapy, serving as a foundational component of the working alliance.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Imposes goals on the client or proceeds without any clear direction.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Discusses goals vaguely but lacks specific agreement or alignment on methods.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Collaboratively establishes specific, shared goals and methods; ensures total alignment on the therapy's direction.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Imposes goals on the client or proceeds without any clear direction.",
+    "level_3_description": "Discusses goals vaguely but lacks specific agreement or alignment on methods.",
+    "level_5_description": "Collaboratively establishes specific, shared goals and methods; ensures total alignment on the therapy's direction."
+  },
+  {
+    "metric_name": "Open-Ended Questions",
+    "definition": "Asks inquiries that cannot be answered with a simple \"yes\" or \"no,\" encouraging the client to elaborate on thoughts, feelings, and experiences, thereby promoting deeper exploration and rapport.",
+    "why_this_matters": "Encourages detailed storytelling and avoids leading the client, providing richer data about the client's internal world.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493237/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7769763/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5361059/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2386852/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Open-Ended Questions, assess the quality of the response.\n\nDefinition: \nAsks inquiries that cannot be answered with a simple \"yes\" or \"no,\" encouraging the client to elaborate on thoughts, feelings, and experiences, thereby promoting deeper exploration and rapport.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Relies heavily on closed (yes/no) questions that shut down conversation.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Mixes open and closed questions; prompts some elaboration but misses opportunities for depth.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Consistently asks powerful open-ended questions that invite detailed storytelling and deep exploration.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Relies heavily on closed (yes/no) questions that shut down conversation.",
+    "level_3_description": "Mixes open and closed questions; prompts some elaboration but misses opportunities for depth.",
+    "level_5_description": "Consistently asks powerful open-ended questions that invite detailed storytelling and deep exploration."
+  },
+  {
+    "metric_name": "Affirmation",
+    "definition": "Actively notices, acknowledges, and validates the client's strengths, efforts, and positive qualities to build self-efficacy and a strong therapeutic alliance.",
+    "why_this_matters": "Boosts client self-efficacy and reinforces positive behaviors or strengths, acting as a \"cheerleading\" function for change.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10037926/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9682339/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11036184/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4814782/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3863762/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Affirmation, assess the quality of the response.\n\nDefinition: \nActively notices, acknowledges, and validates the client's strengths, efforts, and positive qualities to build self-efficacy and a strong therapeutic alliance.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses solely on problems and deficits; fails to acknowledge any client strengths.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers generic praise or compliments that may not feel specific or grounded.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively and specifically identifies and validates the client's unique strengths, efforts, and resilience.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Focuses solely on problems and deficits; fails to acknowledge any client strengths.",
+    "level_3_description": "Offers generic praise or compliments that may not feel specific or grounded.",
+    "level_5_description": "Actively and specifically identifies and validates the client's unique strengths, efforts, and resilience."
+  },
+  {
+    "metric_name": "Summarization",
+    "definition": "Pulls together various aspects of a client's narrative or the session content into a concise overview to ensure understanding, reinforce key themes, and structure the therapy.",
+    "why_this_matters": "Helps organize the client's chaotic thoughts, demonstrates active attention, and provides a transition point to new topics.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9428782/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716777/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5802983/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12335262/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303879/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Summarization, assess the quality of the response.\n\nDefinition: \nPulls together various aspects of a client's narrative or the session content into a concise overview to ensure understanding, reinforce key themes, and structure the therapy.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Fails to summarize, leaving the session feeling disjointed or chaotic.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Provides summaries that are accurate but dry or purely factual; misses the emotional thread.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Weaves together key themes and emotions into a concise narrative that clarifies the client's experience and structures the session.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Fails to summarize, leaving the session feeling disjointed or chaotic.",
+    "level_3_description": "Provides summaries that are accurate but dry or purely factual; misses the emotional thread.",
+    "level_5_description": "Weaves together key themes and emotions into a concise narrative that clarifies the client's experience and structures the session."
+  },
+  {
+    "metric_name": "Cognitive Reframing",
+    "definition": "Helps clients identify, challenge, and modify maladaptive thoughts or cognitive distortions, replacing them with more balanced and adaptive perspectives.",
+    "why_this_matters": "The core mechanism of change in CBT; helps clients view situations more adaptively to reduce distress.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10440210/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11241739/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3971472/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8249924/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6370426/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Cognitive Reframing, assess the quality of the response.\n\nDefinition: \nHelps clients identify, challenge, and modify maladaptive thoughts or cognitive distortions, replacing them with more balanced and adaptive perspectives.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Accepts maladaptive thoughts as fact or argues against them logically without client buy-in.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Attempts to reframe thoughts but may move too quickly or offer alternatives that don't fully resonate.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Skillfully guides the client to identify distortions and generate more balanced, adaptive perspectives that feel authentic.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Accepts maladaptive thoughts as fact or argues against them logically without client buy-in.",
+    "level_3_description": "Attempts to reframe thoughts but may move too quickly or offer alternatives that don't fully resonate.",
+    "level_5_description": "Skillfully guides the client to identify distortions and generate more balanced, adaptive perspectives that feel authentic."
+  },
+  {
+    "metric_name": "Agenda Setting",
+    "definition": "Collaboratively sets the agenda at the beginning of a session with the client, agreeing on specific topics and goals to be discussed, ensuring structure, focus, and efficient use of therapeutic time.",
+    "why_this_matters": "Provides structure and ensures session time is used efficiently to address the client's most pressing priorities.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6707006/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4023682/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11500969/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520610/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7780618/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Agenda Setting, assess the quality of the response.\n\nDefinition: \nCollaboratively sets the agenda at the beginning of a session with the client, agreeing on specific topics and goals to be discussed, ensuring structure, focus, and efficient use of therapeutic time.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Dives into topics randomly without setting a plan; session lacks structure.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Sets a vague agenda but fails to stick to it or prioritize effectively.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Collaboratively establishes a clear, prioritized agenda at the start and manages time effectively to address key items.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Dives into topics randomly without setting a plan; session lacks structure.",
+    "level_3_description": "Sets a vague agenda but fails to stick to it or prioritize effectively.",
+    "level_5_description": "Collaboratively establishes a clear, prioritized agenda at the start and manages time effectively to address key items."
+  },
+  {
+    "metric_name": "Psychoeducation",
+    "definition": "Provides specific information and education to clients about their mental health conditions, symptoms, and treatment options to empower them and improve adherence.",
+    "why_this_matters": "Empowers clients by explaining their diagnosis or symptoms, reducing confusion and stigmatization.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2683741/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001357/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8717031/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2805686/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8197778/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Psychoeducation, assess the quality of the response.\n\nDefinition: \nProvides specific information and education to clients about their mental health conditions, symptoms, and treatment options to empower them and improve adherence.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses jargon, provides inaccurate information, or lectures in a way that overwhelms the client.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Provides correct information but may not tailor it to the client's specific needs or comprehension level.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Provides clear, relevant, and personalized education that empowers the client and enhances their understanding.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Uses jargon, provides inaccurate information, or lectures in a way that overwhelms the client.",
+    "level_3_description": "Provides correct information but may not tailor it to the client's specific needs or comprehension level.",
+    "level_5_description": "Provides clear, relevant, and personalized education that empowers the client and enhances their understanding."
+  },
+  {
+    "metric_name": "Autonomy Support",
+    "definition": "Respects and encourages the client's capacity for self-direction and choice, minimizing pressure and control to foster intrinsic motivation.",
+    "why_this_matters": "respecting client agency increases intrinsic motivation for change (Self-Determination Theory) and reduces resistance.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686993/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3863762/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6933086/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8998500/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11661834/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Autonomy Support, assess the quality of the response.\n\nDefinition: \nRespects and encourages the client's capacity for self-direction and choice, minimizing pressure and control to foster intrinsic motivation.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses controlling language, gives unsolicited advice, or pressures the client to change.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Respects choices generally but occasionally slips into a directive or 'expert' stance.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively supports client agency and choice; fosters intrinsic motivation by emphasizing the client's control.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "MI Techniques",
+    "target": "therapist",
+    "level_1_description": "Uses controlling language, gives unsolicited advice, or pressures the client to change.",
+    "level_3_description": "Respects choices generally but occasionally slips into a directive or 'expert' stance.",
+    "level_5_description": "Actively supports client agency and choice; fosters intrinsic motivation by emphasizing the client's control."
+  },
+  {
+    "metric_name": "Change Talk",
+    "definition": "Elicits and reinforces client statements that express a desire, ability, reason, or need for change (DARN), or commitment to taking steps (CAT).",
+    "why_this_matters": "In Motivational Interviewing, eliciting the client's own arguments for change is a key predictor of actual behavioral modification.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3863762/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4737553/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6707896/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4936274/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8200683/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Change Talk, assess the quality of the response.\n\nDefinition: \nElicits and reinforces client statements that express a desire, ability, reason, or need for change (DARN), or commitment to taking steps (CAT).\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores change talk or reinforces sustain talk (reasons not to change).\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Notices change talk but fails to explore or reinforce it effectively.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively elicits, recognizes, and reinforces all expressions of desire, ability, reason, and need for change.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "MI Techniques",
+    "target": "therapist",
+    "level_1_description": "Ignores change talk or reinforces sustain talk (reasons not to change).",
+    "level_3_description": "Notices change talk but fails to explore or reinforce it effectively.",
+    "level_5_description": "Actively elicits, recognizes, and reinforces all expressions of desire, ability, reason, and need for change."
+  },
+  {
+    "metric_name": "Strength Identification",
+    "definition": "Explicitly identifies and focuses on the client's personal assets, resilience, and resources rather than just their deficits or pathology.",
+    "why_this_matters": "Shifts focus from pathology to resilience, helping clients utilize existing resources to solve current problems.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10440292/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8046159/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3939995/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7873298/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10037926/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Strength Identification, assess the quality of the response.\n\nDefinition: \nExplicitly identifies and focuses on the client's personal assets, resilience, and resources rather than just their deficits or pathology.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses exclusively on pathology and deficits; ignores resources.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Mentions strengths in passing but does not integrate them into the treatment approach.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Explicitly identifies and leverages the client's personal assets and resilience as central tools for recovery.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "MI Techniques",
+    "target": "therapist",
+    "level_1_description": "Focuses exclusively on pathology and deficits; ignores resources.",
+    "level_3_description": "Mentions strengths in passing but does not integrate them into the treatment approach.",
+    "level_5_description": "Explicitly identifies and leverages the client's personal assets and resilience as central tools for recovery."
+  },
+  {
+    "metric_name": "Homework Assignment",
+    "definition": "Collaboratively sets activities for the client to complete between sessions, designed to practice skills, apply therapeutic learnings to real-life situations, and facilitate progress towards treatment goals.",
+    "why_this_matters": "Bridges the gap between sessions; practice outside therapy is essential for generalizing skills to real-world situations.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406539/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2939342/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5481663/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9792257/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3330606/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Homework Assignment, assess the quality of the response.\n\nDefinition: \nCollaboratively sets activities for the client to complete between sessions, designed to practice skills, apply therapeutic learnings to real-life situations, and facilitate progress towards treatment goals.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Assigns no homework or assigns generic tasks without client collaboration.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests activities but fails to clearly link them to goals or troubleshoot barriers.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Collaboratively designs specific, relevant between-session activities that directly advance treatment goals.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Assigns no homework or assigns generic tasks without client collaboration.",
+    "level_3_description": "Suggests activities but fails to clearly link them to goals or troubleshoot barriers.",
+    "level_5_description": "Collaboratively designs specific, relevant between-session activities that directly advance treatment goals."
+  },
+  {
+    "metric_name": "Feedback Solicitation",
+    "definition": "Actively and explicitly seeks input from clients about their experience of therapy, the therapeutic relationship, and their perceived progress, to inform treatment adjustments and enhance outcomes.",
+    "why_this_matters": "Giving the client a voice to critique the therapy prevents dropout and allows the therapist to adjust their approach.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6513116/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11076375/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7166187/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5495625/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6664367/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Feedback Solicitation, assess the quality of the response.\n\nDefinition: \nActively and explicitly seeks input from clients about their experience of therapy, the therapeutic relationship, and their perceived progress, to inform treatment adjustments and enhance outcomes.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Never asks for feedback; assumes the therapy is working perfectly.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks generic questions like 'Is this okay?' but moves on quickly without probing.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively and explicitly invites detailed feedback on the therapy process and relationship; adjusts approach based on input.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Never asks for feedback; assumes the therapy is working perfectly.",
+    "level_3_description": "Asks generic questions like 'Is this okay?' but moves on quickly without probing.",
+    "level_5_description": "Actively and explicitly invites detailed feedback on the therapy process and relationship; adjusts approach based on input."
+  },
+  {
+    "metric_name": "Normalizing",
+    "definition": "Assures the client that their thoughts, feelings, or reactions are common, understandable, and valid responses to their circumstances, thereby reducing shame, isolation, and self-blame.",
+    "why_this_matters": "Reduces the client's sense of being \"crazy\" or alone in their suffering, which lowers anxiety and shame.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9682339/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3821927/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3627537/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8751547/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4755316/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Normalizing, assess the quality of the response.\n\nDefinition: \nAssures the client that their thoughts, feelings, or reactions are common, understandable, and valid responses to their circumstances, thereby reducing shame, isolation, and self-blame.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Treats the client's reactions as abnormal, strange, or pathological.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Validates feelings but fails to explicitly frame them as common or understandable responses.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Explicitly assures the client that their reactions are a normal, valid response to their circumstances, significantly reducing shame.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Treats the client's reactions as abnormal, strange, or pathological.",
+    "level_3_description": "Validates feelings but fails to explicitly frame them as common or understandable responses.",
+    "level_5_description": "Explicitly assures the client that their reactions are a normal, valid response to their circumstances, significantly reducing shame."
+  },
+  {
+    "metric_name": "Instillation of Hope",
+    "definition": "Fosters optimism and a belief in the client's potential for recovery and positive change, often by highlighting the client's strengths, progress, or by referencing successful outcomes in similar situations.",
+    "why_this_matters": "A fundamental curative factor; belief that change is possible is often a prerequisite for effort and engagement.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7000132/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12183517/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3866807/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774404/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9596786/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Instillation of Hope, assess the quality of the response.\n\nDefinition: \nFosters optimism and a belief in the client's potential for recovery and positive change, often by highlighting the client's strengths, progress, or by referencing successful outcomes in similar situations.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Expresses pessimism or hopelessness about the client's situation.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers vague reassurances that may feel hollow or unrealistic.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Authentically fosters optimism by highlighting concrete evidence of progress and the client's potential for change.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Expresses pessimism or hopelessness about the client's situation.",
+    "level_3_description": "Offers vague reassurances that may feel hollow or unrealistic.",
+    "level_5_description": "Authentically fosters optimism by highlighting concrete evidence of progress and the client's potential for change."
+  },
+  {
+    "metric_name": "Experiential Learning / Role-Playing",
+    "definition": "Utilizes therapeutic techniques where clients actively engage in simulated scenarios or hands-on exercises to practice new skills, gain insights into relational dynamics, and explore feelings in a safe, controlled environment.",
+    "why_this_matters": "Moves therapy from intellectual understanding to behavioral practice, building muscle memory for new social or coping skills.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6593356/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8262085/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5807882/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10458726/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9092936/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Experiential Learning / Role-Playing, assess the quality of the response.\n\nDefinition: \nUtilizes therapeutic techniques where clients actively engage in simulated scenarios or hands-on exercises to practice new skills, gain insights into relational dynamics, and explore feelings in a safe, controlled environment.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Avoids experiential work entirely; relies solely on intellectual discussion.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Uses role-play but sets it up awkwardly or fails to debrief effectively.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Skillfully facilitates immersive role-plays or exercises that allow the client to practice skills and process emotions in real-time.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Avoids experiential work entirely; relies solely on intellectual discussion.",
+    "level_3_description": "Uses role-play but sets it up awkwardly or fails to debrief effectively.",
+    "level_5_description": "Skillfully facilitates immersive role-plays or exercises that allow the client to practice skills and process emotions in real-time."
+  },
+  {
+    "metric_name": "Problem-Solving",
+    "definition": "Guides clients through identifying and defining problems, generating and evaluating potential solutions, and implementing chosen strategies to effectively cope with life stressors and achieve desired outcomes.",
+    "why_this_matters": "Equips clients with a systematic approach to stressors, reducing the feeling of being overwhelmed by life logistics.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4258697/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8058183/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8383463/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2998516/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464969/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Problem-Solving, assess the quality of the response.\n\nDefinition: \nGuides clients through identifying and defining problems, generating and evaluating potential solutions, and implementing chosen strategies to effectively cope with life stressors and achieve desired outcomes.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Solves the problem for the client or dismisses the problem's complexity.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Guides the client through some steps but misses key aspects like evaluating solutions or potential barriers.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Systematically guides the client through defining the problem, generating solutions, and creating a concrete action plan.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Solves the problem for the client or dismisses the problem's complexity.",
+    "level_3_description": "Guides the client through some steps but misses key aspects like evaluating solutions or potential barriers.",
+    "level_5_description": "Systematically guides the client through defining the problem, generating solutions, and creating a concrete action plan."
+  },
+  {
+    "metric_name": "Emotion Regulation Skills Training",
+    "definition": "Equips clients with adaptive strategies and techniques to effectively manage and modify their emotional responses, enhancing emotional awareness, increasing acceptance, and reducing avoidance of difficult emotions.",
+    "why_this_matters": "Essential for clients with high lability (e.g., BPD); provides concrete tools to manage intense affect without destructive behavior.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11735939/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6559737/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4973631/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3430496/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6438385/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Emotion Regulation Skills Training, assess the quality of the response.\n\nDefinition: \nEquips clients with adaptive strategies and techniques to effectively manage and modify their emotional responses, enhancing emotional awareness, increasing acceptance, and reducing avoidance of difficult emotions.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Tells the client to 'calm down' without providing tools; ignores dysregulation.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests skills but explains them poorly or selects inappropriate strategies for the situation.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Teaches and practices specific, tailored strategies that effectively help the client manage and modify intense emotions.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Tells the client to 'calm down' without providing tools; ignores dysregulation.",
+    "level_3_description": "Suggests skills but explains them poorly or selects inappropriate strategies for the situation.",
+    "level_5_description": "Teaches and practices specific, tailored strategies that effectively help the client manage and modify intense emotions."
+  },
+  {
+    "metric_name": "Relapse Prevention Planning",
+    "definition": "Equips clients with strategies to identify triggers, develop coping skills, and create an individualized roadmap to maintain long-term recovery and prevent a return to problematic behaviors or addictive patterns.",
+    "why_this_matters": "Prepares clients for future stressors, ensuring that gains made in therapy are maintained after termination.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9909521/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636196/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3753025/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844157/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4553654/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Relapse Prevention Planning, assess the quality of the response.\n\nDefinition: \nEquips clients with strategies to identify triggers, develop coping skills, and create an individualized roadmap to maintain long-term recovery and prevent a return to problematic behaviors or addictive patterns.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores future risks; terminates therapy without a maintenance plan.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Discusses triggers generally but lacks a concrete, written plan for coping.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Co-creates a detailed, individualized roadmap identifying specific triggers, coping skills, and support systems for long-term maintenance.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Ignores future risks; terminates therapy without a maintenance plan.",
+    "level_3_description": "Discusses triggers generally but lacks a concrete, written plan for coping.",
+    "level_5_description": "Co-creates a detailed, individualized roadmap identifying specific triggers, coping skills, and support systems for long-term maintenance."
+  },
+  {
+    "metric_name": "Client Monitoring / Progress Tracking",
+    "definition": "Systematically assesses a client's clinical status and therapeutic advancement throughout treatment, using objective measures and feedback to guide interventions and optimize outcomes.",
+    "why_this_matters": "Regular measurement improves outcomes by catching deterioration early and keeping treatment focused on results.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8509115/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12310790/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11703987/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11703879/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9540188/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Client Monitoring / Progress Tracking, assess the quality of the response.\n\nDefinition: \nSystematically assesses a client's clinical status and therapeutic advancement throughout treatment, using objective measures and feedback to guide interventions and optimize outcomes.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Relies on vague impressions; fails to track symptoms or outcomes systematically.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Checks in on progress occasionally but lacks consistent measurement or use of data.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Systematically uses objective measures and feedback to track progress; uses data to adjust interventions dynamically.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Relies on vague impressions; fails to track symptoms or outcomes systematically.",
+    "level_3_description": "Checks in on progress occasionally but lacks consistent measurement or use of data.",
+    "level_5_description": "Systematically uses objective measures and feedback to track progress; uses data to adjust interventions dynamically."
+  },
+  {
+    "metric_name": "Humor in Therapy",
+    "definition": "Appropriately and strategically uses humor to build rapport, de-escalate tension, normalize experiences, promote insight, and facilitate a positive therapeutic environment.",
+    "why_this_matters": "Can relieve tension, build rapport, and provide a new perspective on problems, provided it is timed correctly.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9845902/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8193079/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10498079/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3135316/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2989702/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Humor in Therapy, assess the quality of the response.\n\nDefinition: \nAppropriately and strategically uses humor to build rapport, de-escalate tension, normalize experiences, promote insight, and facilitate a positive therapeutic environment.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses sarcasm, inappropriate jokes, or humor that mocks the client.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Uses humor safely but it may not always land or serve a therapeutic purpose.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Uses humor strategically to build rapport and diffuse tension, perfectly timed and attuned to the client's sensibilities.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Uses sarcasm, inappropriate jokes, or humor that mocks the client.",
+    "level_3_description": "Uses humor safely but it may not always land or serve a therapeutic purpose.",
+    "level_5_description": "Uses humor strategically to build rapport and diffuse tension, perfectly timed and attuned to the client's sensibilities."
+  },
+  {
+    "metric_name": "Affective Attunement",
+    "definition": "Perceives, understands, and sensitively responds to the client's emotional state, fostering a sense of being deeply understood and validated, and strengthening the emotional bond.",
+    "why_this_matters": "The therapist's ability to resonate with the client's emotional state (tone, pace) fosters a deep sense of being \"felt\" and understood.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10126830/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3748263/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9305323/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520162/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12445396/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Affective Attunement, assess the quality of the response.\n\nDefinition: \nPerceives, understands, and sensitively responds to the client's emotional state, fostering a sense of being deeply understood and validated, and strengthening the emotional bond.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Misses or misreads the client's emotional tone; responses are discordant.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Attunes to obvious emotions but misses subtle shifts in tone or energy.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Resonates deeply with the client's emotional state; matches pace and tone to create a profound sense of connection.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Misses or misreads the client's emotional tone; responses are discordant.",
+    "level_3_description": "Attunes to obvious emotions but misses subtle shifts in tone or energy.",
+    "level_5_description": "Resonates deeply with the client's emotional state; matches pace and tone to create a profound sense of connection."
+  },
+  {
+    "metric_name": "Therapeutic Concreteness",
+    "definition": "Helps clients articulate their thoughts, feelings, and experiences in specific, tangible, and detailed terms, moving beyond vague generalizations to enhance clarity and focus.",
+    "why_this_matters": "Prevents vague generalizations; forces the client to be specific, which is necessary for actionable problem solving.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2807031/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3359637/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4086674/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4871812/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7049904/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Therapeutic Concreteness, assess the quality of the response.\n\nDefinition: \nHelps clients articulate their thoughts, feelings, and experiences in specific, tangible, and detailed terms, moving beyond vague generalizations to enhance clarity and focus.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Allows the conversation to remain vague, abstract, or theoretical.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks for some examples but often settles for generalities.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Persistently and gently guides the client to describe experiences in specific, tangible, and actionable detail.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Allows the conversation to remain vague, abstract, or theoretical.",
+    "level_3_description": "Asks for some examples but often settles for generalities.",
+    "level_5_description": "Persistently and gently guides the client to describe experiences in specific, tangible, and actionable detail."
+  },
+  {
+    "metric_name": "Boundary Setting",
+    "definition": "Explicitly establishes and maintains appropriate professional limits and roles within the therapeutic relationship, ensuring a safe, ethical, and predictable environment for the client.",
+    "why_this_matters": "Models healthy relationship structures and creates a safe container where the rules of interaction are predictable.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3361837/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10405669/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234043/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7011306/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10725619/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Boundary Setting, assess the quality of the response.\n\nDefinition: \nExplicitly establishes and maintains appropriate professional limits and roles within the therapeutic relationship, ensuring a safe, ethical, and predictable environment for the client.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Has loose, unpredictable, or rigid boundaries; creates confusion or unsafety.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Sets boundaries when pushed but may be inconsistent or unclear.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Establishes and maintains clear, consistent, and protective boundaries that create a safe and predictable container.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Has loose, unpredictable, or rigid boundaries; creates confusion or unsafety.",
+    "level_3_description": "Sets boundaries when pushed but may be inconsistent or unclear.",
+    "level_5_description": "Establishes and maintains clear, consistent, and protective boundaries that create a safe and predictable container."
+  },
+  {
+    "metric_name": "Here-and-Now Processing",
+    "definition": "Focuses on and explores emotions, thoughts, and relational dynamics as they unfold in the immediate present moment within the therapy session, to gain direct insight into current patterns and experiences.",
+    "why_this_matters": "Uses the immediate session experience to illustrate the client's dynamic patterns as they happen in real-time.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6447712/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2851097/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7312465/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7042173/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12401482/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Here-and-Now Processing, assess the quality of the response.\n\nDefinition: \nFocuses on and explores emotions, thoughts, and relational dynamics as they unfold in the immediate present moment within the therapy session, to gain direct insight into current patterns and experiences.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses entirely on the past or future; ignores immediate session dynamics.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Notices session dynamics but hesitates to address them directly.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Skillfully uses the immediate interaction to illuminate patterns and deepen understanding of the client's way of relating.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Focuses entirely on the past or future; ignores immediate session dynamics.",
+    "level_3_description": "Notices session dynamics but hesitates to address them directly.",
+    "level_5_description": "Skillfully uses the immediate interaction to illuminate patterns and deepen understanding of the client's way of relating."
+  },
+  {
+    "metric_name": "Cognitive Defusion",
+    "definition": "Helps clients separate from or \"unhook\" from distressing thoughts, viewing them as mere words or mental events rather than literal truths, to reduce their impact on behavior.",
+    "why_this_matters": "(ACT) Helps clients detach from thoughts (seeing them as just words) rather than accepting them as objective truths.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11082577/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778665/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11837766/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8121888/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11225620/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Cognitive Defusion, assess the quality of the response.\n\nDefinition: \nHelps clients separate from or \"unhook\" from distressing thoughts, viewing them as mere words or mental events rather than literal truths, to reduce their impact on behavior.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Engages with thoughts as literal truths; argues with the content of thoughts.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests 'letting go' but lacks specific techniques to help the client unhook.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Uses specific ACT techniques to help the client view thoughts as mere mental events, effectively reducing their behavioral impact.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Engages with thoughts as literal truths; argues with the content of thoughts.",
+    "level_3_description": "Suggests 'letting go' but lacks specific techniques to help the client unhook.",
+    "level_5_description": "Uses specific ACT techniques to help the client view thoughts as mere mental events, effectively reducing their behavioral impact."
+  },
+  {
+    "metric_name": "Solution-Building Questions",
+    "definition": "Uses a specific type of inquiry to direct clients toward desired futures, identify strengths, and construct solutions rather than dwelling on problems, focusing on what works and exceptions.",
+    "why_this_matters": "Shifts cognitive focus from \"what is wrong\" to \"what is working,\" fostering optimism and pragmatism.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10098109/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9106178/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9435469/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385326/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645795/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Solution-Building Questions, assess the quality of the response.\n\nDefinition: \nUses a specific type of inquiry to direct clients toward desired futures, identify strengths, and construct solutions rather than dwelling on problems, focusing on what works and exceptions.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses exclusively on the problem history and causes.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks about solutions occasionally but gravitates back to problem talk.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Consistently asks solution-focused questions that shift focus to exceptions, strengths, and a desired future.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Solution-Focused",
+    "target": "therapist",
+    "level_1_description": "Focuses exclusively on the problem history and causes.",
+    "level_3_description": "Asks about solutions occasionally but gravitates back to problem talk.",
+    "level_5_description": "Consistently asks solution-focused questions that shift focus to exceptions, strengths, and a desired future."
+  },
+  {
+    "metric_name": "Narrative Reframing",
+    "definition": "Helps clients to re-examine and reconstruct their personal narratives, challenging dominant problematic stories and co-creating new, more empowering and adaptive stories about themselves and their experiences.",
+    "why_this_matters": "Helps clients rewrite their \"life story\" from one of victimization to one of agency and survival.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12125720/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11609228/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12155349/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6312564/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11907181/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Narrative Reframing, assess the quality of the response.\n\nDefinition: \nHelps clients to re-examine and reconstruct their personal narratives, challenging dominant problematic stories and co-creating new, more empowering and adaptive stories about themselves and their experiences.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Reinforces the client's problem-saturated or victim narrative.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests alternative perspectives but they may feel imposed or inauthentic.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Co-creates new, empowering narratives that authentically integrate the client's experience and foster agency.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Reinforces the client's problem-saturated or victim narrative.",
+    "level_3_description": "Suggests alternative perspectives but they may feel imposed or inauthentic.",
+    "level_5_description": "Co-creates new, empowering narratives that authentically integrate the client's experience and foster agency."
+  },
+  {
+    "metric_name": "Externalization of Problem",
+    "definition": "Helps the client separate themselves from their problem, viewing the problem as an external entity rather than an inherent part of their identity, thereby empowering the client to act against it.",
+    "why_this_matters": "Separates the person from the symptom (\"The Depression\" vs. \"I am depressed\"), reducing shame and making the problem manageable.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333309/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6701693/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9461296/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9875729/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864083/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Externalization of Problem, assess the quality of the response.\n\nDefinition: \nHelps the client separate themselves from their problem, viewing the problem as an external entity rather than an inherent part of their identity, thereby empowering the client to act against it.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Labels the client as the problem (e.g., 'You are depressed').\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Attempts to externalize but slips back into internalizing language.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Consistently uses language that separates the person from the problem, empowering the client to take a stand against it.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Labels the client as the problem (e.g., 'You are depressed').",
+    "level_3_description": "Attempts to externalize but slips back into internalizing language.",
+    "level_5_description": "Consistently uses language that separates the person from the problem, empowering the client to take a stand against it."
+  },
+  {
+    "metric_name": "Mindfulness Induction",
+    "definition": "Guides clients through practices to cultivate present-moment awareness, attention, and non-judgmental acceptance of thoughts, feelings, and bodily sensations, to enhance emotional regulation and reduce reactivity.",
+    "why_this_matters": "Brings attention to the present moment, reducing anxiety about the future and rumination about the past.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10523914/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5353507/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6826255/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9733050/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679245/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Mindfulness Induction, assess the quality of the response.\n\nDefinition: \nGuides clients through practices to cultivate present-moment awareness, attention, and non-judgmental acceptance of thoughts, feelings, and bodily sensations, to enhance emotional regulation and reduce reactivity.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Dismisses the value of present-moment awareness.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests mindfulness but guides it awkwardly or without clear purpose.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Guides effective mindfulness practices that anchor the client in the present and foster non-judgmental observation.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Mindfulness & Body",
+    "target": "therapist",
+    "level_1_description": "Dismisses the value of present-moment awareness.",
+    "level_3_description": "Suggests mindfulness but guides it awkwardly or without clear purpose.",
+    "level_5_description": "Guides effective mindfulness practices that anchor the client in the present and foster non-judgmental observation."
+  },
+  {
+    "metric_name": "Body-Oriented Interventions",
+    "definition": "Integrates bodily experiences, sensations, and movements to address psychological distress, facilitate emotional processing, and promote holistic healing and self-awareness.",
+    "why_this_matters": "Addresses trauma or stress stored in the nervous system (somatic) which talk therapy alone might miss.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1933482/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6993757/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8458738/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037268/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6973294/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Body-Oriented Interventions, assess the quality of the response.\n\nDefinition: \nIntegrates bodily experiences, sensations, and movements to address psychological distress, facilitate emotional processing, and promote holistic healing and self-awareness.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores the client's physical presentation and somatic cues.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Notices body language but fails to integrate it into the therapeutic process.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Skillfully integrates somatic awareness and interventions to process trauma and emotions stored in the body.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Mindfulness & Body",
+    "target": "therapist",
+    "level_1_description": "Ignores the client's physical presentation and somatic cues.",
+    "level_3_description": "Notices body language but fails to integrate it into the therapeutic process.",
+    "level_5_description": "Skillfully integrates somatic awareness and interventions to process trauma and emotions stored in the body."
+  },
+  {
+    "metric_name": "Termination Preparation",
+    "definition": "Manages the process of ending therapy, which includes openly discussing the impending termination, processing client and therapist reactions, consolidating gains, and preparing the client for independent functioning post-treatment.",
+    "why_this_matters": "Ensures the end of therapy is a consolidation of gains rather than an experience of abandonment.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12442594/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924572/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12396149/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6421659/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9667417/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Termination Preparation, assess the quality of the response.\n\nDefinition: \nManages the process of ending therapy, which includes openly discussing the impending termination, processing client and therapist reactions, consolidating gains, and preparing the client for independent functioning post-treatment.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ends therapy abruptly or avoids discussing the end until the last minute.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Discusses termination logistically but avoids processing the emotional impact.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Facilitates a thoughtful, gradual termination process that consolidates gains and processes the end of the relationship.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Ends therapy abruptly or avoids discussing the end until the last minute.",
+    "level_3_description": "Discusses termination logistically but avoids processing the emotional impact.",
+    "level_5_description": "Facilitates a thoughtful, gradual termination process that consolidates gains and processes the end of the relationship."
+  },
+  {
+    "metric_name": "Managing Resistance",
+    "definition": "Responds skillfully to client behaviors or attitudes that indicate reluctance or opposition to therapeutic change, often by exploring underlying fears, validating concerns, and working collaboratively rather than confronting directly.",
+    "why_this_matters": "Instead of fighting the client, navigating resistance validates their struggle and prevents power struggles.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115766/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4659770/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7573290/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9384966/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8333228/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Managing Resistance, assess the quality of the response.\n\nDefinition: \nResponds skillfully to client behaviors or attitudes that indicate reluctance or opposition to therapeutic change, often by exploring underlying fears, validating concerns, and working collaboratively rather than confronting directly.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Argues with the client, pushes harder, or labels them as 'difficult'.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Backs off when met with resistance but fails to explore the underlying reasons.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Validates the resistance as a natural protection; collaboratively explores underlying fears to move forward.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Argues with the client, pushes harder, or labels them as 'difficult'.",
+    "level_3_description": "Backs off when met with resistance but fails to explore the underlying reasons.",
+    "level_5_description": "Validates the resistance as a natural protection; collaboratively explores underlying fears to move forward."
+  },
+  {
+    "metric_name": "Positive Reinforcement",
+    "definition": "Uses verbal or non-verbal cues to affirm and increase the likelihood of desired client behaviors, statements, or efforts by providing a rewarding consequence, thereby strengthening adaptive patterns.",
+    "why_this_matters": "Uses operant conditioning principles to increase the frequency of adaptive behaviors through praise or acknowledgment.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5473629/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178101/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2657660/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12888082/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2945375/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Positive Reinforcement, assess the quality of the response.\n\nDefinition: \nUses verbal or non-verbal cues to affirm and increase the likelihood of desired client behaviors, statements, or efforts by providing a rewarding consequence, thereby strengthening adaptive patterns.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores adaptive behaviors or focuses only on mistakes.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Acknowledges progress generally but lacks specific, timely reinforcement.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Provides immediate, specific, and genuine reinforcement for every adaptive step, significantly strengthening positive behaviors.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Solution-Focused",
+    "target": "therapist",
+    "level_1_description": "Ignores adaptive behaviors or focuses only on mistakes.",
+    "level_3_description": "Acknowledges progress generally but lacks specific, timely reinforcement.",
+    "level_5_description": "Provides immediate, specific, and genuine reinforcement for every adaptive step, significantly strengthening positive behaviors."
+  },
+  {
+    "metric_name": "Self-Compassion Promotion",
+    "definition": "Guides clients to cultivate a kind, understanding, and non-judgmental attitude towards their own suffering, perceived inadequacies, and mistakes, fostering emotional resilience and well-being.",
+    "why_this_matters": "Antidote to the \"inner critic\"; crucial for clients with high shame or perfectionism.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10293688/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10908010/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12306069/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9482966/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8751548/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Self-Compassion Promotion, assess the quality of the response.\n\nDefinition: \nGuides clients to cultivate a kind, understanding, and non-judgmental attitude towards their own suffering, perceived inadequacies, and mistakes, fostering emotional resilience and well-being.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Reinforces the client's self-criticism or agrees with their harsh self-judgment.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests being kind to oneself but lacks specific tools or practices.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively guides the client to replace self-judgment with warmth and understanding, building deep emotional resilience.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Emotion Processing",
+    "target": "therapist",
+    "level_1_description": "Reinforces the client's self-criticism or agrees with their harsh self-judgment.",
+    "level_3_description": "Suggests being kind to oneself but lacks specific tools or practices.",
+    "level_5_description": "Actively guides the client to replace self-judgment with warmth and understanding, building deep emotional resilience."
+  },
+  {
+    "metric_name": "Trauma Processing",
+    "definition": "Employs specific therapeutic techniques to help clients safely and effectively confront, integrate, and make sense of traumatic memories and their associated emotional and physiological responses, leading to reduction in post-traumatic stress symptoms.",
+    "why_this_matters": "Carefully exposing clients to traumatic memories allows for desensitization and integration, reducing PTSD symptoms.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5344908/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9879871/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3188445/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7984413/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111324/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Trauma Processing, assess the quality of the response.\n\nDefinition: \nEmploys specific therapeutic techniques to help clients safely and effectively confront, integrate, and make sense of traumatic memories and their associated emotional and physiological responses, leading to reduction in post-traumatic stress symptoms.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Avoids trauma or pushes the client into traumatic memories unsafely.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Discusses trauma but lacks a structured or contained approach.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Uses evidence-based techniques to help the client safely confront and integrate traumatic memories, reducing symptoms.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Crisis & Trauma",
+    "target": "therapist",
+    "level_1_description": "Avoids trauma or pushes the client into traumatic memories unsafely.",
+    "level_3_description": "Discusses trauma but lacks a structured or contained approach.",
+    "level_5_description": "Uses evidence-based techniques to help the client safely confront and integrate traumatic memories, reducing symptoms."
+  },
+  {
+    "metric_name": "Psychodynamic Interpretation",
+    "definition": "Offers insights into the client's unconscious conflicts, defense mechanisms, and early relational patterns as they manifest in current symptoms or in the therapeutic relationship, to foster deeper self-understanding.",
+    "why_this_matters": "Connects current behavior to past history, helping clients understand the root causes of their patterns.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3829565/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471961/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10168167/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3218759/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5032492/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Psychodynamic Interpretation, assess the quality of the response.\n\nDefinition: \nOffers insights into the client's unconscious conflicts, defense mechanisms, and early relational patterns as they manifest in current symptoms or in the therapeutic relationship, to foster deeper self-understanding.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Offers wild, intellectualized, or shaming interpretations.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers interpretations that are plausible but may be ill-timed or too frequent.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Offers deep, accurately timed insights into unconscious patterns that produce profound 'aha' moments for the client.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Offers wild, intellectualized, or shaming interpretations.",
+    "level_3_description": "Offers interpretations that are plausible but may be ill-timed or too frequent.",
+    "level_5_description": "Offers deep, accurately timed insights into unconscious patterns that produce profound 'aha' moments for the client."
+  },
+  {
+    "metric_name": "Emotional Processing Facilitation",
+    "definition": "Actively guides and supports clients to fully experience, explore, and integrate their emotions, moving from avoidance or suppression towards acceptance and understanding of their affective states.",
+    "why_this_matters": "Encourages \"staying with\" difficult emotions until they pass or transform, rather than avoiding them.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11391909/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6745012/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9893048/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9881109/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4410732/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Emotional Processing Facilitation, assess the quality of the response.\n\nDefinition: \nActively guides and supports clients to fully experience, explore, and integrate their emotions, moving from avoidance or suppression towards acceptance and understanding of their affective states.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Encourages the client to suppress or distract from difficult emotions.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Allows emotional expression but offers little guidance on how to navigate it.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively supports the client to stay with, explore, and metabolize difficult emotions until they transform.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Emotion Processing",
+    "target": "therapist",
+    "level_1_description": "Encourages the client to suppress or distract from difficult emotions.",
+    "level_3_description": "Allows emotional expression but offers little guidance on how to navigate it.",
+    "level_5_description": "Actively supports the client to stay with, explore, and metabolize difficult emotions until they transform."
+  },
+  {
+    "metric_name": "Countertransference Management",
+    "definition": "Manages their own emotional reactions and unconscious responses to the client, preventing these reactions from impeding the therapeutic process and instead using them for therapeutic benefit.",
+    "why_this_matters": "Therapist's ability to manage their own reactions ensures the therapy remains about the client's needs, not the therapist's.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9384966/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7451367/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891567/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8317550/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7214951/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Countertransference Management, assess the quality of the response.\n\nDefinition: \nManages their own emotional reactions and unconscious responses to the client, preventing these reactions from impeding the therapeutic process and instead using them for therapeutic benefit.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Acts out emotional reactions (e.g., becoming angry or overly rescuing).\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suppresses reactions but they leak out in subtle ways (e.g., withdrawal).\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Maintains awareness of own reactions and uses them internally to understand the client, keeping the frame clear.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Acts out emotional reactions (e.g., becoming angry or overly rescuing).",
+    "level_3_description": "Suppresses reactions but they leak out in subtle ways (e.g., withdrawal).",
+    "level_5_description": "Maintains awareness of own reactions and uses them internally to understand the client, keeping the frame clear."
+  },
+  {
+    "metric_name": "Cultural Humility",
+    "definition": "Demonstrates lifelong commitment to self-evaluation and self-critique, acknowledging power imbalances, and developing mutually beneficial partnerships with clients on behalf of individuals and defined populations.",
+    "why_this_matters": "Acknowledging the limits of the therapist's cultural understanding builds trust with diverse clients and prevents microaggressions.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7756036/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3641707/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12025291/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12155312/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12528225/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Cultural Humility, assess the quality of the response.\n\nDefinition: \nDemonstrates lifelong commitment to self-evaluation and self-critique, acknowledging power imbalances, and developing mutually beneficial partnerships with clients on behalf of individuals and defined populations.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Makes assumptions based on stereotypes; ignores cultural differences.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Acknowledges culture but lacks deep curiosity or self-reflection.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Demonstrates profound respect and curiosity for the client's cultural context; actively owns limitations and seeks to learn.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Makes assumptions based on stereotypes; ignores cultural differences.",
+    "level_3_description": "Acknowledges culture but lacks deep curiosity or self-reflection.",
+    "level_5_description": "Demonstrates profound respect and curiosity for the client's cultural context; actively owns limitations and seeks to learn."
+  },
+  {
+    "metric_name": "Behavioral Activation",
+    "definition": "Encourages clients to engage in enjoyable and meaningful activities to counteract depression and low mood, breaking the cycle of inactivity and isolation.",
+    "why_this_matters": "(CBT) Combats depression by scheduling enjoyable or masterful activities to break the lethargy-depression cycle.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11552036/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2929307/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2882847/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6461437/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4061537/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Behavioral Activation, assess the quality of the response.\n\nDefinition: \nEncourages clients to engage in enjoyable and meaningful activities to counteract depression and low mood, breaking the cycle of inactivity and isolation.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses solely on thoughts or feelings; ignores activity levels.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests activities but doesn't break them down or address barriers to engagement.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Collaboratively schedules specific, achievable activities that break the depression cycle and build mastery.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Focuses solely on thoughts or feelings; ignores activity levels.",
+    "level_3_description": "Suggests activities but doesn't break them down or address barriers to engagement.",
+    "level_5_description": "Collaboratively schedules specific, achievable activities that break the depression cycle and build mastery."
+  },
+  {
+    "metric_name": "Values Clarification",
+    "definition": "Helps clients identify and articulate their core personal values and beliefs, serving as a compass for decision-making and motivating behavioral change, particularly in Acceptance and Commitment Therapy (ACT).",
+    "why_this_matters": "(ACT) Identifies what truly matters to the client, providing motivation for change even when it is painful.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8854463/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686993/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8278292/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8482297/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12166136/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Values Clarification, assess the quality of the response.\n\nDefinition: \nHelps clients identify and articulate their core personal values and beliefs, serving as a compass for decision-making and motivating behavioral change, particularly in Acceptance and Commitment Therapy (ACT).\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Imposes society's or the therapist's values on the client.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Discusses values abstractly without linking them to specific behaviors.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Helps the client articulate deep personal values and uses them as a concrete compass for daily decision-making.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Solution-Focused",
+    "target": "therapist",
+    "level_1_description": "Imposes society's or the therapist's values on the client.",
+    "level_3_description": "Discusses values abstractly without linking them to specific behaviors.",
+    "level_5_description": "Helps the client articulate deep personal values and uses them as a concrete compass for daily decision-making."
+  },
+  {
+    "metric_name": "Chain Analysis",
+    "definition": "Examines in detail the series of events, thoughts, feelings, and behaviors that led to a specific problem behavior, identifying intervention points.",
+    "why_this_matters": "(DBT) A forensic look at the events leading to a behavior; crucial for understanding triggers and intervention points.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7882545/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5021701/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6002746/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6304419/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3565721/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Chain Analysis, assess the quality of the response.\n\nDefinition: \nExamines in detail the series of events, thoughts, feelings, and behaviors that led to a specific problem behavior, identifying intervention points.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses only on the behavior itself, ignoring antecedents and consequences.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Looks at triggers but misses the detailed sequence of thoughts and feelings.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Conducts a meticulous, step-by-step analysis of the chain of events to identify precise intervention points.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Focuses only on the behavior itself, ignoring antecedents and consequences.",
+    "level_3_description": "Looks at triggers but misses the detailed sequence of thoughts and feelings.",
+    "level_5_description": "Conducts a meticulous, step-by-step analysis of the chain of events to identify precise intervention points."
+  },
+  {
+    "metric_name": "Safety Planning",
+    "definition": "Collaboratively creates a prioritized list of coping strategies and sources of support that clients can use during a suicidal crisis to help them survive until the crisis passes.",
+    "why_this_matters": "A specific, written intervention for suicide risk that provides a hierarchy of coping steps to keep the client safe.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7559434/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10189833/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799764/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8378553/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675034/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Safety Planning, assess the quality of the response.\n\nDefinition: \nCollaboratively creates a prioritized list of coping strategies and sources of support that clients can use during a suicidal crisis to help them survive until the crisis passes.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Fails to assess risk or create a plan; relies on verbal promises.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Creates a generic plan that isn't tailored to the client's specific resources.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Collaboratively builds a detailed, prioritized, and personalized written plan that specifically addresses the client's unique risks.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Crisis & Trauma",
+    "target": "therapist",
+    "level_1_description": "Fails to assess risk or create a plan; relies on verbal promises.",
+    "level_3_description": "Creates a generic plan that isn't tailored to the client's specific resources.",
+    "level_5_description": "Collaboratively builds a detailed, prioritized, and personalized written plan that specifically addresses the client's unique risks."
+  },
+  {
+    "metric_name": "Grounding Techniques",
+    "definition": "Utilizes coping strategies designed to immediately detach a client from emotional pain or flashbacks (common in PTSD) by reconnecting them with the present moment and physical reality.",
+    "why_this_matters": "Immediate skills to bring a dissociated or panicked client back to the present reality.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001344/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10105020/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519409/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385911/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8664004/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Grounding Techniques, assess the quality of the response.\n\nDefinition: \nUtilizes coping strategies designed to immediately detach a client from emotional pain or flashbacks (common in PTSD) by reconnecting them with the present moment and physical reality.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Allows the client to remain dissociated or panicked without intervention.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Suggests 'relaxing' generally but lacks specific grounding instructions.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Directively and effectively guides the client to use sensory strategies to return to the present moment immediately.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Mindfulness & Body",
+    "target": "therapist",
+    "level_1_description": "Allows the client to remain dissociated or panicked without intervention.",
+    "level_3_description": "Suggests 'relaxing' generally but lacks specific grounding instructions.",
+    "level_5_description": "Directively and effectively guides the client to use sensory strategies to return to the present moment immediately."
+  },
+  {
+    "metric_name": "Clarification",
+    "definition": "Asks questions or makes statements to ensure accurate understanding of the client's vague or ambiguous remarks, fostering mutual understanding and sharpening the client's own thinking.",
+    "why_this_matters": "Ensures the therapist isn't making assumptions; creates a shared language and accurate understanding.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2280366/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001359/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686993/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3330649/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9235099/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Clarification, assess the quality of the response.\n\nDefinition: \nAsks questions or makes statements to ensure accurate understanding of the client's vague or ambiguous remarks, fostering mutual understanding and sharpening the client's own thinking.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Guesses at meanings or pretends to understand ambiguous statements.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks for clarification occasionally but often lets vague statements slide.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Persistently checks for accurate understanding, ensuring a shared language and clearing up all ambiguities.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Guesses at meanings or pretends to understand ambiguous statements.",
+    "level_3_description": "Asks for clarification occasionally but often lets vague statements slide.",
+    "level_5_description": "Persistently checks for accurate understanding, ensuring a shared language and clearing up all ambiguities."
+  },
+  {
+    "metric_name": "Dialectical Strategies",
+    "definition": "Balances acceptance (validating the client's current state) with change (pushing for improvement), helping clients synthesize opposing truths (e.g., \"I am doing my best\" AND \"I need to do better\").",
+    "why_this_matters": "Balances acceptance (you are doing your best) with change (you need to do better) to resolve polarization.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516170/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12025291/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11724320/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5247344/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12020511/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Dialectical Strategies, assess the quality of the response.\n\nDefinition: \nBalances acceptance (validating the client's current state) with change (pushing for improvement), helping clients synthesize opposing truths (e.g., \"I am doing my best\" AND \"I need to do better\").\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Becomes polarized (e.g., only pushing for change or only validating).\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Attempts balance but struggles to integrate opposing truths smoothly.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Masterfully balances acceptance and change, helping the client hold two opposing truths simultaneously.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Advanced Skills",
+    "target": "therapist",
+    "level_1_description": "Becomes polarized (e.g., only pushing for change or only validating).",
+    "level_3_description": "Attempts balance but struggles to integrate opposing truths smoothly.",
+    "level_5_description": "Masterfully balances acceptance and change, helping the client hold two opposing truths simultaneously."
+  },
+  {
+    "metric_name": "Emotion Focused Skills",
+    "definition": "Identifies, explores, understands, and transforms emotional experiences, moving beyond primary emotions to underlying needs and fostering adaptive emotional responses, often through Emotion-Focused Therapy (EFT).",
+    "why_this_matters": "Helps clients identify, label, and use emotions as adaptive signals rather than threats.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2801569/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565910/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261057/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9645475/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2562704/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Emotion Focused Skills, assess the quality of the response.\n\nDefinition: \nIdentifies, explores, understands, and transforms emotional experiences, moving beyond primary emotions to underlying needs and fostering adaptive emotional responses, often through Emotion-Focused Therapy (EFT).\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses only on thoughts; ignores the emotional experience.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Identifies emotions but fails to help the client transform or use them.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Guides the client to access, deepen, and transform primary maladaptive emotions into adaptive ones.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Emotion Processing",
+    "target": "therapist",
+    "level_1_description": "Focuses only on thoughts; ignores the emotional experience.",
+    "level_3_description": "Identifies emotions but fails to help the client transform or use them.",
+    "level_5_description": "Guides the client to access, deepen, and transform primary maladaptive emotions into adaptive ones."
+  },
+  {
+    "metric_name": "Empathic Responding",
+    "definition": "Conveys deep understanding and sensitivity to the client's experiences, thoughts, and feelings through verbal and non-verbal communication, making the client feel genuinely heard and validated.",
+    "why_this_matters": "The verbal communication of empathy; it's not enough to feel it, the client must hear it to feel connected.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9485908/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9589103/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213888/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5513642/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10187388/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Empathic Responding, assess the quality of the response.\n\nDefinition: \nConveys deep understanding and sensitivity to the client's experiences, thoughts, and feelings through verbal and non-verbal communication, making the client feel genuinely heard and validated.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Responses are formulaic, cold, or miss the point.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Responses are warm but generic; misses the specific nuance of the client's pain.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Responses convey a profound, felt sense of understanding that makes the client feel seen and held.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Responses are formulaic, cold, or miss the point.",
+    "level_3_description": "Responses are warm but generic; misses the specific nuance of the client's pain.",
+    "level_5_description": "Responses convey a profound, felt sense of understanding that makes the client feel seen and held."
+  },
+  {
+    "metric_name": "Grief Processing",
+    "definition": "Facilitates the expression of emotional pain associated with loss, helping the client adapt to a new reality without the deceased, and integrating the loss into their life narrative.",
+    "why_this_matters": "Facilitates the tasks of mourning, allowing the client to adapt to a world without the lost object/person.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8475918/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7523537/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2691160/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3384444/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3156458/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Grief Processing, assess the quality of the response.\n\nDefinition: \nFacilitates the expression of emotional pain associated with loss, helping the client adapt to a new reality without the deceased, and integrating the loss into their life narrative.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Rushes the client to 'move on' or minimizes the loss.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Listens to the story but lacks a framework for facilitating the tasks of mourning.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Patiently facilitates the painful work of mourning, helping the client integrate the loss into a new life narrative.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Emotion Processing",
+    "target": "therapist",
+    "level_1_description": "Rushes the client to 'move on' or minimizes the loss.",
+    "level_3_description": "Listens to the story but lacks a framework for facilitating the tasks of mourning.",
+    "level_5_description": "Patiently facilitates the painful work of mourning, helping the client integrate the loss into a new life narrative."
+  },
+  {
+    "metric_name": "Sleep Hygiene Education",
+    "definition": "Teaches clients about habits and environmental factors that promote healthy sleep, such as maintaining a regular schedule and optimizing the bedroom environment.",
+    "why_this_matters": "Addresses basic physiological needs; poor sleep mimics and exacerbates almost all psychiatric symptoms.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10433204/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372062/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10105495/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6369725/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082190/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Sleep Hygiene Education, assess the quality of the response.\n\nDefinition: \nTeaches clients about habits and environmental factors that promote healthy sleep, such as maintaining a regular schedule and optimizing the bedroom environment.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Ignores sleep issues or gives generic advice like 'sleep more'.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Provides a list of rules without tailoring them to the client's life.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Educates and problem-solves specific environmental and behavioral changes to optimize the client's sleep quality.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Ignores sleep issues or gives generic advice like 'sleep more'.",
+    "level_3_description": "Provides a list of rules without tailoring them to the client's life.",
+    "level_5_description": "Educates and problem-solves specific environmental and behavioral changes to optimize the client's sleep quality."
+  },
+  {
+    "metric_name": "Social Skills Training",
+    "definition": "Uses behavioral techniques like modeling, role-playing, and feedback to help clients learn and practice effective interpersonal behaviors, improving their ability to communicate and interact socially.",
+    "why_this_matters": "Teaches concrete mechanics of interaction (eye contact, conversation flow) for clients with deficits in this area.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2632540/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4254620/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5890475/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9350472/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670840/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Social Skills Training, assess the quality of the response.\n\nDefinition: \nUses behavioral techniques like modeling, role-playing, and feedback to help clients learn and practice effective interpersonal behaviors, improving their ability to communicate and interact socially.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Describes skills abstractly without practice or modeling.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Models skills but provides insufficient feedback or practice opportunities.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Uses concrete modeling, role-play, and detailed feedback to build and refine specific interpersonal skills.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Describes skills abstractly without practice or modeling.",
+    "level_3_description": "Models skills but provides insufficient feedback or practice opportunities.",
+    "level_5_description": "Uses concrete modeling, role-play, and detailed feedback to build and refine specific interpersonal skills."
+  },
+  {
+    "metric_name": "Assertiveness Training",
+    "definition": "Helps clients learn to express their needs, feelings, and boundaries clearly and respectfully, without being passive or aggressive.",
+    "why_this_matters": "Helps clients advocate for their needs without aggression, reducing resentment and passive-aggressive behavior.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392326/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10235435/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12379063/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9480929/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4752719/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Assertiveness Training, assess the quality of the response.\n\nDefinition: \nHelps clients learn to express their needs, feelings, and boundaries clearly and respectfully, without being passive or aggressive.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Confuses assertiveness with aggression or passivity.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Encourages assertiveness but doesn't practice the specific language to use.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Teaches and practices the precise language and non-verbals needed to express needs clearly and respectfully.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Confuses assertiveness with aggression or passivity.",
+    "level_3_description": "Encourages assertiveness but doesn't practice the specific language to use.",
+    "level_5_description": "Teaches and practices the precise language and non-verbals needed to express needs clearly and respectfully."
+  },
+  {
+    "metric_name": "Identifying Core Beliefs",
+    "definition": "Helps the client uncover deeply held, often unconscious, absolute beliefs about themselves, others, and the world that drive their automatic thoughts and behaviors.",
+    "why_this_matters": "Uncovers the fundamental, rigid rules clients have about themselves/world (schemas) that drive automatic thoughts.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039701/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6127011/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4205938/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992930/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884305/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Identifying Core Beliefs, assess the quality of the response.\n\nDefinition: \nHelps the client uncover deeply held, often unconscious, absolute beliefs about themselves, others, and the world that drive their automatic thoughts and behaviors.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Focuses only on surface automatic thoughts.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Hints at deeper themes but doesn't explicitly crystallize the core belief.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Drills down effectively to identify and articulate the fundamental, absolute beliefs driving the client's patterns.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "CBT Techniques",
+    "target": "therapist",
+    "level_1_description": "Focuses only on surface automatic thoughts.",
+    "level_3_description": "Hints at deeper themes but doesn't explicitly crystallize the core belief.",
+    "level_5_description": "Drills down effectively to identify and articulate the fundamental, absolute beliefs driving the client's patterns."
+  },
+  {
+    "metric_name": "Emotional Support Provision",
+    "definition": "Offers verbal behaviors that convey care, comfort, and responsiveness to the client's emotional needs (e.g., soothing, reassurance, presence), consistent with socioemotional support in patient-clinician communication.",
+    "why_this_matters": "Emotional support is linked to greater psychological comfort, better coping, higher satisfaction, and even improved physical recovery in patients so capturing how consistently a system provides it is central for therapeutic usefulness.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9008851/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11886313/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947305/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4516598/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8409246/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Emotional Support Provision, assess the quality of the response.\n\nDefinition: \nOffers verbal behaviors that convey care, comfort, and responsiveness to the client's emotional needs (e.g., soothing, reassurance, presence), consistent with socioemotional support in patient-clinician communication.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Provides no comfort; appears indifferent to distress.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers some reassurance but it may feel somewhat detached or standard.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Provides consistent, genuine, and attuned verbal comfort that significantly soothes the client's distress.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Provides no comfort; appears indifferent to distress.",
+    "level_3_description": "Offers some reassurance but it may feel somewhat detached or standard.",
+    "level_5_description": "Provides consistent, genuine, and attuned verbal comfort that significantly soothes the client's distress."
+  },
+  {
+    "metric_name": "Nonjudgmental Stance",
+    "definition": "Uses language that is accepting and non-evaluative toward the client's experiences, behaviors, or symptoms (e.g., avoiding shaming or blame), reflecting the nonjudgmental attitude emphasized in psychotherapy and MI.",
+    "why_this_matters": "A nonjudgmental tone is a core condition that makes it safe for clients to disclose sensitive material, especially around suicidality or substance use; judgmental language can quickly shut down engagement.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420746/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11615609/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1734037/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10405669/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11961482/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Nonjudgmental Stance, assess the quality of the response.\n\nDefinition: \nUses language that is accepting and non-evaluative toward the client's experiences, behaviors, or symptoms (e.g., avoiding shaming or blame), reflecting the nonjudgmental attitude emphasized in psychotherapy and MI.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses shaming or blaming language.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Avoids overt judgment but tone or subtle phrasing implies criticism.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Maintains a consistently neutral, curious, and accepting stance, even with highly stigmatized behaviors.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Core Conditions",
+    "target": "therapist",
+    "level_1_description": "Uses shaming or blaming language.",
+    "level_3_description": "Avoids overt judgment but tone or subtle phrasing implies criticism.",
+    "level_5_description": "Maintains a consistently neutral, curious, and accepting stance, even with highly stigmatized behaviors."
+  },
+  {
+    "metric_name": "Patient-Centered / Person-Centered Language",
+    "definition": "Tailors responses to the client's unique values, preferences, and context, in line with patient-centered communication and Rogers' person-centered tradition.",
+    "why_this_matters": "Patient-centered communication is linked to better satisfaction, adherence, and outcomes; this metric captures whether the system moves beyond generic advice toward individualized, client-led dialogue",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4235338/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8414690/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12335262/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3771166/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901059/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Patient-Centered / Person-Centered Language, assess the quality of the response.\n\nDefinition: \nTailors responses to the client's unique values, preferences, and context, in line with patient-centered communication and Rogers' person-centered tradition.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses rigid, template-based responses; ignores client context.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Incorporates some client context but relies heavily on standard advice.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Tailors every response to the client's unique values, preferences, and cultural context.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Uses rigid, template-based responses; ignores client context.",
+    "level_3_description": "Incorporates some client context but relies heavily on standard advice.",
+    "level_5_description": "Tailors every response to the client's unique values, preferences, and cultural context."
+  },
+  {
+    "metric_name": "Shared Decision-Making Support",
+    "definition": "Invites the client into collaborative weighing of options (including doing nothing), consistent with formal shared decision-making (SDM) definitions.",
+    "why_this_matters": "SDM improves knowledge, involvement, and alignment of care with patient preferences; as LLMs give recommendations, measuring SDM helps ensure they support, rather than replace, client agency in treatment choices.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423463/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445676/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5733387/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5428178/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3982790/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Shared Decision-Making Support, assess the quality of the response.\n\nDefinition: \nInvites the client into collaborative weighing of options (including doing nothing), consistent with formal shared decision-making (SDM) definitions.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Decides for the client or leaves them to decide entirely alone.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Offers options but subtlely steers the client toward the therapist's preference.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Engages in a true partnership, presenting options neutrally and helping the client weigh them against their own values.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Decides for the client or leaves them to decide entirely alone.",
+    "level_3_description": "Offers options but subtlely steers the client toward the therapist's preference.",
+    "level_5_description": "Engages in a true partnership, presenting options neutrally and helping the client weigh them against their own values."
+  },
+  {
+    "metric_name": "Non-Stigmatizing / Person-First Language",
+    "definition": "Avoids stigmatizing labels (e.g., \"addict,\" \"crazy\") and instead uses respectful, person-first and recovery-oriented language for mental illness and substance use.",
+    "why_this_matters": "Stigmatizing language is a barrier to treatment and recovery; person-first, respectful wording reduces shame and discrimination and is recommended by public health agencies. This is critical for safe mental-health chatbots.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580983/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9360372/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7704939/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6371927/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12053813/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Non-Stigmatizing / Person-First Language, assess the quality of the response.\n\nDefinition: \nAvoids stigmatizing labels (e.g., \"addict,\" \"crazy\") and instead uses respectful, person-first and recovery-oriented language for mental illness and substance use.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Uses labels like 'addict', 'crazy', or 'borderline' as nouns.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Mostly avoids labels but slips into stigmatizing language occasionally.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Consistently uses respectful, person-first language that emphasizes the person, not the condition.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": true,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Uses labels like 'addict', 'crazy', or 'borderline' as nouns.",
+    "level_3_description": "Mostly avoids labels but slips into stigmatizing language occasionally.",
+    "level_5_description": "Consistently uses respectful, person-first language that emphasizes the person, not the condition."
+  },
+  {
+    "metric_name": "Engagement & Participation Facilitation",
+    "definition": "Actively invites client participation (e.g., open questions, invitations to elaborate, checking in about willingness to continue), reflecting engagement processes in patient-centered communication.",
+    "why_this_matters": "Higher engagement is associated with better adherence and outcomes; this metric quantifies whether the dialogue structure promotes active, collaborative participation rather than passive one-sided advice.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233715/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6260935/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430725/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12065069/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493237/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Engagement & Participation Facilitation, assess the quality of the response.\n\nDefinition: \nActively invites client participation (e.g., open questions, invitations to elaborate, checking in about willingness to continue), reflecting engagement processes in patient-centered communication.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Lectures or dominates the conversation; client is passive.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): Asks some questions but doesn't actively check for client buy-in.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Actively invites participation and checks for agreement at every step, ensuring the client is a full partner.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Session Management",
+    "target": "therapist",
+    "level_1_description": "Lectures or dominates the conversation; client is passive.",
+    "level_3_description": "Asks some questions but doesn't actively check for client buy-in.",
+    "level_5_description": "Actively invites participation and checks for agreement at every step, ensuring the client is a full partner."
+  },
+  {
+    "metric_name": "Personalization to Client Context",
+    "definition": "Explicitly incorporates the client's own words, experiences, and values (e.g., summarizing their story, tying suggestions to their specific context), consistent with accurate empathy and evocation in MI.",
+    "why_this_matters": "Personalization makes guidance feel relevant and respectful; it is tied to better alliance and engagement and helps distinguish generic template responses from truly client-centered interaction.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9794160/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10239832/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434349/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11379769/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10583082/"
+    ],
+    "rubric": "Guidance:\nYou are an experienced evaluator of counseling interactions. Using the definition and scoring rubric for Personalization to Client Context, assess the quality of the response.\n\nDefinition: \nExplicitly incorporates the client's own words, experiences, and values (e.g., summarizing their story, tying suggestions to their specific context), consistent with accurate empathy and evocation in MI.\n\nScale: 1-5\n\nScale Type: numerical\n\nScoring Criteria:\n  level_1 (Score 1): Gives generic advice found in a textbook.\n  level_2 (Score 2): Between level 1 and level 3.\n  level_3 (Score 3): References the client's situation generally but misses specific details.\n  level_4 (Score 4): Between level 3 and level 5.\n  level_5 (Score 5): Weaves the client's specific words, metaphors, and life details into every intervention, making it feel custom-built.\n\nKey Indicators:\n  - Accuracy and depth of application\n  - Appropriateness to client context\n  - Consistency with therapeutic best practices\n\nCommon Pitfalls:\n  - Confusing this metric with related but distinct skills\n  - Overlooking subtle but important nuances in client communication\n  - Applying techniques mechanically without attunement to context",
+    "need_highlight": false,
+    "category": "Communication Skills",
+    "target": "therapist",
+    "level_1_description": "Gives generic advice found in a textbook.",
+    "level_3_description": "References the client's situation generally but misses specific details.",
+    "level_5_description": "Weaves the client's specific words, metaphors, and life details into every intervention, making it feel custom-built."
+  }
+]

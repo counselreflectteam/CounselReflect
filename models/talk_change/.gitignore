@@ -1,0 +1,42 @@
+# Talk Change model specific ignores
+# (Python common patterns are handled in root .gitignore)
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Training outputs (too large)
+output/
+output_*/
+experiments_output/
+test_single/
+checkpoints/
+runs/
+logs/
+
+# Model files (too large for git)
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Processed data (can be regenerated)
+processed_data/*.csv
+processed_data/*.json
+!processed_data/README.md
+!processed_data/.gitkeep
+
+# Dataset files (users should download from official source)
+dataset/*.csv
+dataset/*.jsonl
+!dataset/README.md
+!dataset/.gitkeep
+
+# HuggingFace cache
+huggingface_upload/hf_model/
+.transformers_cache/
+
+# Environment variables
+.env
+.env.local

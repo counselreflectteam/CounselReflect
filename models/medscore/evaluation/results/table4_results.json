@@ -1,0 +1,11 @@
+{
+  "askdocs": {
+    "medscore_internal": 84.38
+  },
+  "puma": {},
+  "paper_table4_reference": {
+    "AskDocsAI_MedScore_internal": 76.54,
+    "AskDocsAI_MedScore_provided": 94.68,
+    "AskDocsAI_MedScore_medrag": 70.07
+  }
+}

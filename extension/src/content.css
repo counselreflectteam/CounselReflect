@@ -1,0 +1,5 @@
+/*
+ * Host-page UI is styled inline by sidebar.js and restored on close.
+ * Keep this file selector-free so installing CounselReflect never changes the
+ * host site's body transition while the sidebar is closed.
+ */

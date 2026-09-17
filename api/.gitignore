@@ -1,0 +1,19 @@
+# API specific ignores
+# (Python common patterns are handled in root .gitignore)
+
+# Environment variables with API keys
+.env
+.env.local
+.env.production
+
+
+# Test output
+tests/__pycache__/
+test_output/
+test_results/
+
+# FastAPI/Uvicorn specific
+*.db
+*.sqlite3
+
+corpus

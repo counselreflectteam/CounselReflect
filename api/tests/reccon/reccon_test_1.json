@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Therapist",
+      "text": "Hi, before we start I want to explain how this works."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Is that okay with you?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I've been feeling really anxious because my manager keeps criticizing my work in meetings."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "That sounds really stressful."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It makes sense you'd feel anxious when you're criticized publicly like that."
+    }
+  ]
+}

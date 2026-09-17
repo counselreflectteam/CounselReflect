@@ -1,0 +1,12 @@
+# Requirements for the Atomic Fact Scorer pipeline
+# This lightweight implementation uses OpenAI directly (no factscore package needed)
+
+# OpenAI client (v1.0+ for modern API)
+openai>=1.0.0
+
+# Evaluation dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Environment variable loading
+python-dotenv>=1.0.0

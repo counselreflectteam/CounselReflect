@@ -1,0 +1,22 @@
+# PAIR Model Requirements
+# General dependencies for using the PAIR model
+
+# Core dependencies for inference
+torch>=1.6.0
+transformers>=4.0.0
+huggingface-hub>=0.10.0
+
+# For API/endpoint usage
+requests>=2.25.0
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Optional: For development
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
+# Note: For deployment via HuggingFace endpoint, see deployment/requirements.txt
+# Note: Deployment requirements are minimal and optimized for endpoint runtime

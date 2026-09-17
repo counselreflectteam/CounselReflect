@@ -1,0 +1,37 @@
+{
+  "conversation": [
+    {
+      "speaker": "Therapist",
+      "text": "Hello, I'm glad you could make it today."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Before we start, is there anything specific you'd like to focus on?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "I've been feeling a bit overwhelmed at work lately."
+    },
+    {
+      "speaker": "Patient",
+      "text": "My manager keeps adding new projects and I can't keep up."
+    },
+    {
+      "speaker": "Patient",
+      "text": "It's starting to affect my sleep too."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like the workload is becoming unmanageable for you."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "And it's clearly having a physical impact if you're losing sleep."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yeah, I just don't know how to say no."
+    }
+  ],
+  "metrics": ["talk_type", "emotion"]
+}

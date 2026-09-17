@@ -1,0 +1,7 @@
+{
+  "conversation": [
+    { "speaker": "Client", "text": "I'm angry because my coworker took credit for my work in front of the team." },
+    { "speaker": "Therapist", "text": "That would feel unfair. What happened right after they took credit?" }
+  ],
+  "metrics": ["talk_type"]
+}

@@ -1,0 +1,36 @@
+services:
+  api:
+    # In production, we pull the built image from GitHub Container Registry
+    # Image name will be set via GITHUB_REPOSITORY environment variable
+    image: ghcr.io/${GITHUB_REPOSITORY}/api:latest
+    container_name: therapist_api
+    ports:
+      # Bind to loopback only: the TLS proxy on the host is the sole intended
+      # caller, and a public bind would let clients bypass it entirely.
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - .env
+    environment:
+      - REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+      - PERSPECTIVE_API_KEY=${PERSPECTIVE_API_KEY}
+      # Public deployment: no access gate by default. Set
+      # COUNSELREFLECT_ACCESS_REQUIRED=true (plus a token) in .env to run a
+      # gated preview instead — the app then refuses to start without a token.
+      - COUNSELREFLECT_ACCESS_REQUIRED=${COUNSELREFLECT_ACCESS_REQUIRED:-false}
+      # Override host-specific .env paths inside the container.
+      - MEDRAG_CORPUS=/app/corpus
+      - HF_HOME=/root/.cache/huggingface
+      - TORCH_HOME=/root/.cache/torch
+      - NLTK_DATA=/usr/local/share/nltk_data
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+      # Persist downloaded MedScore corpus
+      - corpus_data:/app/corpus
+      # Persist downloaded FActScore DocDB
+      - factscore_cache:/app/.cache/factscore
+    restart: always
+
+volumes:
+  hf_cache:
+  corpus_data:
+  factscore_cache:

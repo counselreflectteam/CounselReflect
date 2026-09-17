@@ -1,0 +1,31 @@
+services:
+  api:
+    build: .
+    container_name: therapist_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+      - PERSPECTIVE_API_KEY=${PERSPECTIVE_API_KEY}
+      # Override host-specific .env paths inside the container.
+      - MEDRAG_CORPUS=/app/corpus
+      - HF_HOME=/root/.cache/huggingface
+      - TORCH_HOME=/root/.cache/torch
+      - NLTK_DATA=/usr/local/share/nltk_data
+    volumes:
+      # Mount local api directory for development (optional, remove for production)
+      # - .:/app
+      # Persist huggingface cache if needed
+      - hf_cache:/root/.cache/huggingface
+      # Persist downloaded MedScore corpus
+      - corpus_data:/app/corpus
+      # Persist downloaded FActScore DocDB
+      - factscore_cache:/app/.cache/factscore
+    restart: always
+
+volumes:
+  hf_cache:
+  corpus_data:
+  factscore_cache:

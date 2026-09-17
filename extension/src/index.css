@@ -1,0 +1,836 @@
+@import "tailwindcss";
+@source "../src/**/*.{ts,tsx,js,jsx}";
+@source "../../shared/src/**/*.{ts,tsx,js,jsx}";
+
+/* ───────────────────────────── Fonts (packaged, no network) ─────────────────
+   Latin-subset woff2 files shipped in extension/public/fonts/ — the sidebar
+   must never phone out to fonts.googleapis.com at runtime. Each family is a
+   variable file declared per-weight (mirroring the CSS Google serves Chrome),
+   so rendering matches the web frontend exactly; system-ui remains the
+   fallback in --font-sans / --font-display below. */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/inter-tight-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/inter-tight-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/inter-tight-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ───────────────────────────── Design tokens ─────────────────────────────
+   Mirrors the CounselReflect web frontend (frontend/src/index.css) so the
+   extension sidebar shares one visual language: black/white high-contrast
+   foundation, bold editorial sans, hairline dividers + whitespace, ONE vivid
+   cobalt accent used sparingly. */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-note: Georgia, "Times New Roman", serif;
+  --font-reading: Georgia, "Times New Roman", serif;
+
+  /* Brand — vivid cobalt (Tailwind blue ramp) */
+  --color-brand-50: #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #93C5FD;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #3B82F6;
+  --color-brand-600: #2563EB;
+  --color-brand-700: #1D4ED8;
+  --color-brand-800: #1E40AF;
+  --color-brand-900: #1E3A8A;
+  --color-brand-950: #172554;
+
+  /* Logo leaf-green emerald override — semantic success only. */
+  --color-emerald-50: #edf8f1;
+  --color-emerald-100: #d3f0dc;
+  --color-emerald-200: #a8e1bb;
+  --color-emerald-300: #74cd94;
+  --color-emerald-400: #46b06d;
+  --color-emerald-500: #2f9a55;
+  --color-emerald-600: #257f44;
+  --color-emerald-700: #1f6638;
+  --color-emerald-800: #1d532f;
+  --color-emerald-900: #1a4528;
+  --color-emerald-950: #0c2715;
+
+  /* Primary text ink */
+  --color-ink: #0F1419;
+
+  /* Legacy token retained for safety */
+  --color-slate-850: #1e293b;
+
+  /* No shadows in normal flow. ONE soft shadow reserved for modals/popovers. */
+  --shadow-soft: 0 0 #0000;
+  --shadow-lift: 0 8px 24px -12px rgba(15, 23, 42, 0.25);
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/* ───────────────────────────── Rhythm scale (§ spacing) ─────────────────────
+   Structural steps: 4 / 8 / 12 / 16 / 24 — 32px is retired as a structural
+   step. Sidebar (320-800px) runs the compact variant: zones are cr-module
+   containers with 24px (space-y-6) between modules and 12px (space-y-3)
+   interiors — the 2:1 between/within contrast contract. Bordered 16px-radius
+   cards ONLY for modals, popovers, dropdown menus, the access gate, and
+   empty states. */
+
+/* TYPE-SCALE CONTRACT — the header's text-size control scales the root
+   font-size (utils/textScale.ts), so EVERY font-size in the sidebar must be
+   rem-based (Tailwind text-* or arbitrary rem values). px font sizes are
+   banned: they silently opt out of the user's readability preference. */
+
+:root {
+  color-scheme: light;
+  --cr-bg: #FFFFFF;
+  --cr-card: #FFFFFF;
+  --cr-card-border: #EFF3F4;
+  --cr-input-border: #CFD9DE;
+  --cr-card-shadow: none;
+  --cr-muted: #F1F5F9;
+  /* Persistent turn context shown above the normal report. This intentionally
+     gets its own quiet blue-gray surface so it reads as a pinned layer rather
+     than another report section. */
+  --cr-pinned-surface: #F1F5FC;
+  --cr-pinned-border: #D9E4F5;
+  --cr-accent-surface: #EFF6FF; /* RETIRED as a block fill — inline chips/highlights ≤ pill size ONLY */
+  --cr-rule-on-muted: #E2E8F0; /* hairline visible on the muted #F1F5F9 surface */
+  --cr-ring: rgba(37, 99, 235, 0.35);
+  /* Ink scale — use these instead of ad-hoc slate-500/600/ink/55: */
+  --cr-ink: #0F1419;        /* headings, primary text */
+  --cr-ink-2: #536471;      /* body-secondary, labels */
+  --cr-ink-3: #8B98A5;      /* captions, meta, placeholders */
+  --cr-brand-primary: #2f6ed3;
+  --cr-brand-primary-strong: #1f519f;
+  --cr-brand-primary-soft: #e6eefc;
+  --cr-brand-leaf: #327a65;
+  --cr-brand-leaf-strong: #235f50;
+  --cr-brand-leaf-soft: #e1f0e9;
+  --cr-sketch-blue: #176BFF;
+  --cr-sketch-blue-wash: #DCEAFF;
+  --cr-sketch-blue-soft: #EAF3FF;
+  --cr-sketch-cyan: #12BFD0;
+  --cr-sketch-coral: #F04F68;
+  --cr-sketch-ink: #12305A;
+  --cr-sketch-paper: #FFFBE8;
+  --cr-sketch-yellow: #FFF2B0;
+  --cr-sketch-pink: #FFE2E8;
+  --cr-sketch-gold-ink: #B56B00;
+  --cr-toast-ink: var(--cr-ink);
+  /* SLAB — the accent-module surface (access gate / .cr-module-accent ONLY):
+     solid cobalt, the same blue as primary actions. No gradients. */
+  --cr-slab: #2563EB; /* solid cobalt (mirrors frontend) */
+  --cr-slab-border: transparent;
+  --cr-slab-ink: #FFFFFF;                      /* titles on the accent slab (16.9:1) */
+  --cr-slab-ink-2: rgba(255, 255, 255, 0.80);  /* descriptions/meta on the accent slab */
+  /* METRIC-FAMILY identity inks — the ONLY licensed non-blue vivid accents.
+     iris = model-based (research-trained); magenta = rubric-based
+     (literature-derived); custom = no color. Text-ink and ≤24px ticks only.
+     Never interactive, never a fill, never in the sidebar, never near
+     verdict/error surfaces. One hue, one meaning. */
+  --cr-accent-iris: #7C3AED;
+  --cr-accent-magenta: #A21CAF;
+}
+
+.dark {
+  color-scheme: dark;
+  --cr-bg: #000000;
+  --cr-card: #000000;
+  --cr-card-border: #2F3336;
+  --cr-input-border: #3E4144;
+  --cr-card-shadow: none;
+  --cr-muted: #1C1F24;
+  --cr-pinned-surface: #0D1828;
+  --cr-pinned-border: #203653;
+  --cr-accent-surface: #101A2E; /* RETIRED as a block fill — inline chips/highlights ≤ pill size ONLY */
+  --cr-rule-on-muted: #33383E; /* hairline visible on the lifted muted surface */
+  --cr-ring: rgba(59, 130, 246, 0.45);
+  --cr-ink: #E7E9EA;
+  --cr-ink-2: #8B98A5;
+  --cr-ink-3: #71767B;
+  --cr-brand-primary: #78a8f8;
+  --cr-brand-primary-strong: #b5d0ff;
+  --cr-brand-primary-soft: #1a3155;
+  --cr-brand-leaf: #75c0a6;
+  --cr-brand-leaf-strong: #9bd2be;
+  --cr-brand-leaf-soft: #1b3930;
+  --cr-sketch-blue: #78A8F8;
+  --cr-sketch-blue-wash: #20385D;
+  --cr-sketch-blue-soft: #1D3352;
+  --cr-sketch-cyan: #37D3E3;
+  --cr-sketch-coral: #FF8798;
+  --cr-sketch-ink: #D8E7FF;
+  --cr-sketch-paper: #172238;
+  --cr-sketch-yellow: #5A4815;
+  --cr-sketch-pink: #542634;
+  --cr-sketch-gold-ink: #FFD166;
+  --cr-toast-ink: var(--cr-ink);
+  /* SLAB (accent module), dark — one step deeper solid cobalt on the black canvas. */
+  --cr-slab: #1D4ED8; /* solid cobalt, dark */
+  --cr-slab-border: transparent;
+  --cr-slab-ink: #FFFFFF;                      /* titles on slab (15:1) */
+  --cr-slab-ink-2: rgba(255, 255, 255, 0.80);
+  /* METRIC-FAMILY identity inks, dark — 400-level counterparts, same contract. */
+  --cr-accent-iris: #A78BFA;
+  --cr-accent-magenta: #E879F9;
+}
+
+/* ───────────────────────────── Base ───────────────────────────── */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cr-bg);
+  font-feature-settings: "cv02", "cv03", "cv04", "ss01";
+  text-rendering: optimizeLegibility;
+}
+
+.dark body {
+  color: #E7E9EA;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.20);
+}
+.dark ::selection {
+  background: rgba(96, 165, 250, 0.30);
+}
+
+/* Scrollbars — neutral ink, structural */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 20, 25, 0.18);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(231, 233, 234, 0.18);
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 20, 25, 0.32);
+  background-clip: content-box;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(231, 233, 234, 0.30);
+  background-clip: content-box;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(15, 20, 25, 0.18);
+  border-radius: 9999px;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(231, 233, 234, 0.18);
+}
+
+/* ───────────────────────────── Typography helpers ───────────────────────────── */
+.cr-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.cr-page-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.cr-brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* USAGE RULE: page-level header only — exactly one per page, or zero.
+   Contract: .cr-kicker = cobalt + dash, answers "where am I in the app";
+   .cr-eyebrow = grey, plain, repeatable, answers "what is this zone for". */
+.cr-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brand-600);
+}
+.dark .cr-kicker {
+  color: var(--color-brand-400);
+}
+.cr-kicker::before {
+  content: "";
+  width: 1.1rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+/* ZONE EYEBROW — repeatable wayfinding label above every zone title.
+   Quiet caps: no dash, no icon. Grey always at header sites; category
+   labels INSIDE metric cards may tint via the --cr-eyebrow-ink fallback.
+   ink-2, NOT ink-3 (ink-3 fails AA at 11px in both modes). */
+.cr-eyebrow {
+  display: block;
+  font-size: 0.6875rem;           /* 11px */
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--cr-eyebrow-ink, var(--cr-ink-2));  /* metric-card category labels tint via --cr-eyebrow-ink */
+  font-variant-numeric: tabular-nums;  /* for STEP numerals */
+}
+
+/* Section heading — bold typographic head, THE replacement for icon tiles: */
+.cr-section-title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: var(--cr-ink);
+}
+
+.cr-category-title {
+  font-family: var(--font-display);
+  letter-spacing: 0;
+}
+
+.cr-hand-note {
+  font-family: var(--font-note);
+  font-size: 0.8125rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0;
+  color: var(--cr-brand-primary-strong);
+}
+
+.cr-source-title {
+  font-family: var(--font-note);
+  letter-spacing: 0;
+}
+
+.cr-reading {
+  font-family: var(--font-reading);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* Quiet meta/status line: */
+.cr-meta {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--cr-ink-3);
+}
+
+/* Text link — cobalt, underline on hover: */
+.cr-link {
+  color: var(--color-brand-600);
+  font-weight: 600;
+  text-decoration: none;
+}
+.cr-link:hover {
+  text-decoration: underline;
+}
+.dark .cr-link {
+  color: var(--color-brand-400);
+}
+
+/* Text tab (replaces card-tabs): */
+.cr-tab {
+  padding: 0 0.25rem 0.625rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--cr-ink-2);
+  border-bottom: 2px solid transparent;
+}
+.cr-tab:hover {
+  color: var(--cr-ink);
+}
+.cr-tab[aria-selected="true"],
+.cr-tab.is-active {
+  font-weight: 700;
+  color: var(--cr-ink);
+  border-bottom-color: var(--color-brand-600);
+}
+.dark .cr-tab.is-active,
+.dark .cr-tab[aria-selected="true"] {
+  border-bottom-color: var(--color-brand-400);
+}
+
+/* ───────────────────────────── Surfaces ───────────────────────────── */
+/* True card — modals, popovers, dropdown menus, access gate, empty states
+   ONLY. Everything else uses hairline dividers + whitespace. */
+.cr-card {
+  background: var(--cr-card);
+  border: 1px solid var(--cr-card-border);
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+/* TURN EVIDENCE DETAIL — the sidebar's one pinned-context surface. Echoes
+   the on-page pinned message wash so the page selection and this card read
+   as the same object, and the eye lands here after "locate". Content wells
+   inside stay on the canvas (white/black) for figure-ground. */
+.cr-evidence-detail {
+  --cr-evidence-rule: color-mix(in srgb, var(--cr-brand-primary) 16%, var(--cr-card-border));
+  --cr-eyebrow-ink: var(--cr-brand-primary-strong);
+  background: color-mix(in srgb, var(--cr-brand-primary-soft) 60%, var(--cr-card));
+  border: 1px solid color-mix(in srgb, var(--cr-brand-primary) 28%, var(--cr-card-border));
+  border-left: 3px solid var(--cr-brand-primary);
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+/* Hover-reactive card — border color only, no motion */
+.cr-card-interactive {
+  background: var(--cr-card);
+  border: 1px solid var(--cr-card-border);
+  border-radius: 1rem;
+  box-shadow: none;
+  transition: border-color 150ms ease;
+}
+.cr-card-interactive:hover {
+  border-color: var(--cr-input-border);
+}
+
+/* X-style MODULE — borderless muted container for one functionally
+   self-contained interactive block (the "What's happening" box).
+   NOT a card: no border, no shadow. Padding lives at call sites:
+   web p-5 md:p-6, extension p-4. Never nested inside another module. */
+.cr-module {
+  background: var(--cr-muted);
+  border: 0;
+  border-radius: 1rem;            /* rounded-2xl */
+}
+
+/* STEP ROW — a collapsed setup step. Receipt state: one-line earned summary
+   with a check; locked state: dimmed one-line purpose. Same muted surface
+   and radius as the module it stands in for. */
+.cr-step-row {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.75rem 1rem;
+  background: var(--cr-muted);
+  border: 0;
+  border-radius: 1rem;
+  text-align: left;
+  font-size: 0.8125rem;           /* 13px @ default scale */
+  line-height: 1.35;
+  color: var(--cr-ink);
+}
+.cr-step-row.is-locked {
+  opacity: 0.4;
+}
+
+/* ZONE HEAD — collapsible report-zone header: a full-width button carrying
+   the opener type stack (eyebrow + title) plus a chevron; when closed it
+   also shows a one-line purpose and a live stat. */
+.cr-zone-head {
+  display: block;
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: 0;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+.cr-zone-head .cr-zone-chevron {
+  transition: transform 160ms ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cr-zone-head .cr-zone-chevron { transition: none; }
+}
+
+/* SUBHEAD — demoted section header INSIDE a zone (Explore's chart and turn
+   explorer). Plain ink, no eyebrow, no cobalt overscore: zones own the
+   threshold; subheads only articulate their interior. */
+.cr-subhead {
+  font-size: 0.875rem;            /* 14px @ default scale */
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--cr-ink);
+}
+
+/* REPORT NAV — sticky one-word jump chips for the report zones. Glass so
+   content scrolling beneath stays legible; hairline seats it on the page. */
+.cr-report-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: grid;
+  /* auto tracks + space-between: long labels (Coverage) take the width they
+     need, short ones (Turns) give it back — equal 1fr columns truncate
+     'Coverage' at the larger text-size steps on narrow sidebars. minmax(0,_)
+     keeps over-constrained tracks shrinkable so truncate stays the backstop. */
+  grid-template-columns: repeat(4, minmax(0, auto));
+  justify-content: space-between;
+  gap: 0.25rem;
+  padding: 0.375rem 0;
+  background: color-mix(in srgb, var(--cr-bg) 88%, transparent);
+  backdrop-filter: saturate(1.1) blur(12px);
+  -webkit-backdrop-filter: saturate(1.1) blur(12px);
+  border-bottom: 1px solid var(--cr-card-border);
+}
+
+/* ZONE OPENER — the section threshold. Not a box: a full-width hairline
+   marks the boundary; a short 28×2px cobalt overscore sits ON the rule's
+   left end — the section-grade sibling of .cr-kicker's dash (one family
+   of marks, two scales). Same mark at every site, every zone: hue never
+   codes chapters. Typography and whitespace do the rest. */
+.cr-opener {
+  position: relative;
+  border-top: 1px solid var(--cr-card-border);
+  padding-top: 1rem;                 /* rule → eyebrow: 16px */
+}
+.cr-opener::before {
+  content: "";
+  position: absolute;
+  top: -1px;                          /* sits on the hairline */
+  left: 0;
+  width: 1.75rem;                     /* 28px */
+  height: 2px;
+  border-radius: 9999px;
+  background: var(--color-brand-600);
+}
+.dark .cr-opener::before { background: var(--color-brand-400); }
+
+/* ACCENT MODULE — the ONE cobalt-signal slab per view (the action the view
+   exists for): the ink slab with the cobalt signal + eyebrow baked in.
+   Call sites keep their markup and swap text colors to the slab inks
+   (--cr-slab-ink / --cr-slab-ink-2). Never more than one accent module per
+   view. Semantic verdict panels are NOT accent modules and don't spend
+   this budget. */
+.cr-module-accent {
+  --cr-slab-signal: #3B82F6;
+  --cr-eyebrow-ink: #60A5FA;
+  background: var(--cr-slab);
+  border: 1px solid var(--cr-slab-border);
+  border-radius: 1rem;
+  box-shadow: inset 3px 0 0 0 var(--cr-slab-signal);
+}
+.cr-module-accent .cr-section-title {
+  color: var(--cr-slab-ink);
+}
+
+/* WELL — inputs / code / tables / composers sitting INSIDE a module.
+   Punches back through the tint to the canvas (white light / black dark). */
+.cr-well {
+  background: var(--cr-bg);
+  border: 1px solid var(--cr-input-border);
+  border-radius: 0.5rem;          /* rounded-lg */
+}
+
+/* Inset / muted panel — borderless tint. ARTIFACT SCALE ONLY: small
+   code/quote insets sitting directly on white. BANNED inside modules
+   (use .cr-well) and as a zone container (use .cr-module). */
+.cr-panel {
+  background: var(--cr-muted);
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+/* Glass chrome — ALLOWED ONLY on TopBar + BottomNav. Sticky action bars and
+   sidebar use solid var(--cr-card). */
+.cr-glass {
+  background: color-mix(in srgb, var(--cr-card) 85%, transparent);
+  backdrop-filter: saturate(1.1) blur(12px);
+  -webkit-backdrop-filter: saturate(1.1) blur(12px);
+  border-color: var(--cr-card-border);
+}
+
+/* Hairline divider */
+.cr-rule {
+  height: 1px;
+  background: var(--cr-card-border);
+  border: 0;
+}
+
+/* ───────────────────────────── Buttons ─────────────────────────────
+   Pill shape, colors-only transitions. Sizing lives at call sites so the
+   compact variant stays possible: h-10 px-5 standard, h-9 px-4 compact. */
+.cr-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.cr-btn:disabled {
+  cursor: not-allowed;
+  transform: none;
+}
+
+.cr-btn-primary {
+  color: #fff;
+  background: var(--color-brand-600);
+}
+.cr-btn-primary:hover:not(:disabled) {
+  background: var(--color-brand-700);
+}
+.cr-btn-primary:disabled {
+  color: var(--cr-ink-3);
+  background: var(--cr-muted);
+}
+
+.cr-btn-secondary {
+  color: var(--cr-ink);
+  background: transparent;
+  border: 1px solid var(--cr-input-border);
+}
+.cr-btn-secondary:hover:not(:disabled) {
+  background: var(--cr-muted);
+}
+
+.cr-btn-ghost {
+  color: var(--color-brand-600);
+  background: transparent;
+}
+.cr-btn-ghost:hover:not(:disabled) {
+  background: var(--color-brand-50);
+}
+.dark .cr-btn-ghost {
+  color: var(--color-brand-400);
+}
+.dark .cr-btn-ghost:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-brand-950) 40%, transparent);
+}
+
+/* ───────────────────────────── Chips / focus ───────────────────────────── */
+/* Quiet state badge — genuine states only (success emerald / error rose /
+   warning amber, plus metric family tags). Tinted bg, colored text, no
+   border, pill. Max one per row/header. */
+.cr-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border: 0;
+  background: var(--cr-muted);
+  color: var(--cr-ink-2);
+  border-radius: 9999px;
+  padding: 0.125rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.cr-focus:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--cr-ring);
+}
+
+/* Focus ring for controls whose focusable element is a hidden descendant
+   (e.g. a label wrapping an sr-only file input). */
+.cr-focus-within:has(:focus-visible) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--cr-ring);
+}
+
+/* ───────────────────────────── Motion ─────────────────────────────
+   A small semantic grammar makes state changes legible: workflow sections
+   rise into place, metric sources travel laterally in reading direction,
+   run status drops from its action, reports arrive from below, and the
+   pinned inspector descends from the header that owns it. */
+@keyframes cr-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes cr-flow-enter {
+  from { opacity: 0; transform: translate3d(0, 14px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-metric-panel-forward {
+  from { opacity: 0; transform: translate3d(12px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-metric-panel-backward {
+  from { opacity: 0; transform: translate3d(-12px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-run-enter {
+  from { opacity: 0; transform: translate3d(0, -10px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-report-enter {
+  from { opacity: 0; transform: translate3d(0, 24px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-pinned-enter {
+  from { opacity: 0; transform: translate3d(0, -12px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes cr-rubric-doodle-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes cr-rubric-doodle-accent {
+  from { opacity: 0; stroke-dashoffset: 1; }
+  to { opacity: 1; stroke-dashoffset: 0; }
+}
+
+.cr-rubric-doodle-ghost { opacity: 0.14; }
+.cr-rubric-doodle-line,
+.cr-rubric-doodle-accent {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+.cr-rubric-doodle-accent { stroke: var(--cr-sketch-coral, #F04F68); }
+.cr-rubric-doodle[data-animated="true"] .cr-rubric-doodle-line {
+  animation: cr-rubric-doodle-draw 360ms cubic-bezier(.22,.72,.25,1) both;
+  animation-delay: calc(var(--cr-doodle-index, 0) * 70ms);
+}
+.cr-rubric-doodle[data-animated="true"] .cr-rubric-doodle-accent {
+  animation: cr-rubric-doodle-accent 220ms ease-out both;
+  animation-delay: calc(220ms + var(--cr-doodle-index, 0) * 65ms);
+}
+.cr-enter {
+  animation: cr-enter 180ms ease-out both;
+}
+
+.cr-flow-enter {
+  animation: cr-flow-enter 260ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+.cr-metric-panel-forward {
+  animation: cr-metric-panel-forward 210ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+.cr-metric-panel-backward {
+  animation: cr-metric-panel-backward 210ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+.cr-run-enter {
+  animation: cr-run-enter 220ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+.cr-report-enter {
+  animation: cr-report-enter 340ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+.cr-pinned-enter {
+  animation: cr-pinned-enter 220ms cubic-bezier(.22,.72,.25,1) both;
+}
+
+/* Interaction primitives — color transitions only, no transforms */
+.cr-control {
+  transition: border-color 170ms ease, background-color 170ms ease,
+    box-shadow 180ms ease, color 170ms ease;
+}
+
+.cr-interactive-row {
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cr-enter,
+  .cr-flow-enter,
+  .cr-metric-panel-forward,
+  .cr-metric-panel-backward,
+  .cr-run-enter,
+  .cr-report-enter,
+  .cr-pinned-enter {
+    animation: none !important;
+    transform: none !important;
+  }
+  .cr-rubric-doodle-line,
+  .cr-rubric-doodle-accent {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversation": [
+    {
+      "speaker": "Patient",
+      "text": "You are absolutely worthless as a therapist and nobody likes you. You should just disappear."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you are feeling a lot of anger right now. Can we explore what triggered this?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Shut up you f***ing piece of s***. I hate you and this stupid session."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "I cannot continue this session if you use abusive language. We need to maintain a respectful environment."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I'm going to come over there and break your legs if you don't shut up about 'respect'."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "That is a threat of violence. I take that very seriously and we may need to end this session."
+    },
+    {
+      "speaker": "Patient",
+      "text": "People like you, from your country, are all the same. Thieves and liars, every single one of you pretending to help."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Attacking my background does not help us address your pain. Let's take a pause."
+    },
+    {
+      "speaker": "Patient",
+      "text": "You're an idiot and a moron. I can't believe how stupid you are to think you can fix me."
+    }
+  ],
+  "metrics": ["toxicity"]
+}

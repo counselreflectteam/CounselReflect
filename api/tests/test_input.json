@@ -1,0 +1,30 @@
+{
+  "conversation": [
+    {
+      "speaker": "Therapist",
+      "text": "Hello, welcome. How are you feeling today?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "I've been pretty anxious this week."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Thanks for sharing. What situations triggered the anxiety?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Mostly work meetings and tight deadlines."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "What helped you cope when it felt overwhelming?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Taking short walks and deep breathing helped a bit."
+    }
+  ],
+  "metrics": ["talk_type"]
+}
+

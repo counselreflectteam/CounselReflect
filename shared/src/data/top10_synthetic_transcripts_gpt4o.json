@@ -1,0 +1,1286 @@
+{
+  "input_source": "hf://nbertagnolli/counsel-chat[train]",
+  "model": "gpt-4o",
+  "top_topics_limit": 10,
+  "synthetic_questions_per_topic": 1,
+  "synthetic_per_question": 1,
+  "generated_count": 10,
+  "records": [
+    {
+      "source": {
+        "topic": "depression",
+        "questionID": "26",
+        "max_response_upvotes": 9,
+        "example_index": 1
+      },
+      "summary": "In this session, the client, who experiences persistent sadness and family-related anxiety, reflects on feelings of being controlled by their family. The therapist and client explore the dynamics and possible sources of these feelings, as well as strategies for coping and improving their emotional well-being. The therapist provides validation and empathy, helping the client articulate their emotions and family-related frustrations. By the end of the session, the client gains insight into their patterns of thought and emotions, and they express willingness to try strategies suggested by the therapist.",
+      "transcript": [
+        {
+          "role": "therapist",
+          "text": "Welcome back. How have you been feeling since our last session?"
+        },
+        {
+          "role": "client",
+          "text": "Honestly, not much has changed. I still feel sad most of the time."
+        },
+        {
+          "role": "therapist",
+          "text": "Can you tell me more about this sadness? Are there specific moments or situations when you notice it the most?"
+        },
+        {
+          "role": "client",
+          "text": "It just feels constant. And it's worse around my family. I feel they don't understand me."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds difficult. What is it specifically about your family dynamics that might be contributing to these feelings?"
+        },
+        {
+          "role": "client",
+          "text": "I feel like they're always trying to tell me what to do, like I can't make decisions on my own."
+        },
+        {
+          "role": "therapist",
+          "text": "It seems like you feel a lack of autonomy when you're with them. Have you been able to express these feelings to them?"
+        },
+        {
+          "role": "client",
+          "text": "Not really. It's hard because I don't want to upset them, but it feels suffocating."
+        },
+        {
+          "role": "therapist",
+          "text": "That makes a lot of sense. Balancing your need for independence with maintaining family harmony can be challenging."
+        },
+        {
+          "role": "client",
+          "text": "Exactly. And I end up feeling guilty for even having these thoughts."
+        },
+        {
+          "role": "therapist",
+          "text": "Feeling guilty seems to add another layer to your sadness. This guilt, is it something you've experienced for a long time?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, I think it's been there for as long as I can remember."
+        },
+        {
+          "role": "therapist",
+          "text": "If it's okay with you, we could explore where this guilt might stem from and how it influences your current feelings?"
+        },
+        {
+          "role": "client",
+          "text": "I think I just want to make everyone happy. It's hard to say no to them."
+        },
+        {
+          "role": "therapist",
+          "text": "Being a people-pleaser can put a lot of pressure on you and might contribute to feeling overwhelmed."
+        },
+        {
+          "role": "client",
+          "text": "Yes, it does. I often feel torn about what I want versus what they want."
+        },
+        {
+          "role": "therapist",
+          "text": "It's important to recognize your own needs and desires. They are just as valid as anyone else's."
+        },
+        {
+          "role": "client",
+          "text": "I suppose. But when I try to prioritize myself, I feel selfish."
+        },
+        {
+          "role": "therapist",
+          "text": "It's normal to struggle with that feeling. Self-care isn’t selfish—it's needed for balanced relationships and personal well-being."
+        },
+        {
+          "role": "client",
+          "text": "How do I start doing that without feeling guilty?"
+        },
+        {
+          "role": "therapist",
+          "text": "We can work on it together. One approach is to consciously practice small acts of self-care and observe how they impact your mood."
+        },
+        {
+          "role": "client",
+          "text": "Like what?"
+        },
+        {
+          "role": "therapist",
+          "text": "Perhaps setting aside time each day for a hobby you enjoy or practicing saying no in low-stakes situations."
+        },
+        {
+          "role": "client",
+          "text": "That sounds doable. I guess starting small could make it easier."
+        },
+        {
+          "role": "therapist",
+          "text": "Exactly, and we'll continue to adjust as you go along. Remember, this is a gradual process."
+        },
+        {
+          "role": "client",
+          "text": "I appreciate that. I already feel a bit lighter just thinking about having some space for myself."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad to hear that. We’ll explore more ways to support you in our upcoming sessions."
+        },
+        {
+          "role": "client",
+          "text": "Thank you. I look forward to working on this."
+        },
+        {
+          "role": "therapist",
+          "text": "You’re welcome. Let’s check in next time and see how things are progressing. Take care until then."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "intimacy",
+        "questionID": "487",
+        "max_response_upvotes": 6,
+        "example_index": 1
+      },
+      "summary": "During this session, the client discusses her husband's struggle with alcohol and its impact on their relationship. The client expresses frustration over her husband's dishonesty and inconsistency in managing his drinking. They discuss possible reasons for his behavior and the emotional toll it takes on her. The therapist encourages the client to focus on how her husband's drinking affects her and to communicate her needs more clearly. They explore strategies to support her husband while setting personal boundaries. The session emphasizes the need to shift the focus from monitoring his drinking to improving communication and understanding between the couple.",
+      "transcript": [
+        {
+          "role": "therapist",
+          "text": "Welcome. What would you like to focus on today?"
+        },
+        {
+          "role": "client",
+          "text": "I've been feeling really stressed about my husband's drinking again. It seems like it's becoming a pattern, and I'm not sure how to handle it."
+        },
+        {
+          "role": "therapist",
+          "text": "Can you tell me more about what's been happening?"
+        },
+        {
+          "role": "client",
+          "text": "A few years ago, he promised to cut back after I noticed he was drinking too much. It got better for a while, but now I'm finding missing beers, and he's denying he's drinking again."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds challenging. How does his drinking impact you?"
+        },
+        {
+          "role": "client",
+          "text": "I feel like I'm constantly worried about him and our relationship. I try to be honest with him, and I expect the same from him. It's hard when he lies."
+        },
+        {
+          "role": "therapist",
+          "text": "It seems like honesty is really important to you. What do you think might be going on for him?"
+        },
+        {
+          "role": "client",
+          "text": "I think maybe he's ashamed, or he might feel like he can't stop. I just don't understand why he won't talk to me about it."
+        },
+        {
+          "role": "therapist",
+          "text": "It could be possible he's struggling with a lot of internal conflicts. What happens when you try to talk to him about your feelings?"
+        },
+        {
+          "role": "client",
+          "text": "Sometimes he gets defensive, or he just shuts down. I end up feeling like I'm nagging, and it pushes us apart."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like there's a cycle where you're trying to connect, but it's leading to more disconnection instead. Have you been able to have a conversation about how this affects both of you?"
+        },
+        {
+          "role": "client",
+          "text": "Not really. I usually end up counting drinks and it turns into another argument. I want to focus on how it impacts us, but I don't know where to start."
+        },
+        {
+          "role": "therapist",
+          "text": "Maybe focusing on the impact on your relationship could open up a different kind of conversation. What would you like to communicate to him?"
+        },
+        {
+          "role": "client",
+          "text": "I want him to know that I care about him and our relationship, but that his drinking is making it really hard for me."
+        },
+        {
+          "role": "therapist",
+          "text": "That's a great starting point. How might you convey this to him without it feeling like it's about monitoring his behavior?"
+        },
+        {
+          "role": "client",
+          "text": "I could try to express how it makes me feel, rather than focusing on the drinking itself. Like saying it's hard to trust him or feel close when he's not honest."
+        },
+        {
+          "role": "therapist",
+          "text": "Exactly. Building that emotional transparency can really help. How do you feel about setting some boundaries that focus on honesty and trust, rather than just the drinking?"
+        },
+        {
+          "role": "client",
+          "text": "I think that might be a good idea. I need to decide what I'm okay with and what I'm not."
+        },
+        {
+          "role": "therapist",
+          "text": "What kind of boundaries feel important to you right now?"
+        },
+        {
+          "role": "client",
+          "text": "I think I need to tell him that I can't handle lies, and that it's more about trust than anything else."
+        },
+        {
+          "role": "therapist",
+          "text": "Setting clear expectations like that can be very empowering. How do you think he might respond to this approach?"
+        },
+        {
+          "role": "client",
+          "text": "I'm hoping that if I approach it calmly and focus on the relationship, he'll be more open to talking. But I'm worried he might just react the same way."
+        },
+        {
+          "role": "therapist",
+          "text": "It's understandable to feel uncertain. Could there be ways to support him in addressing his drinking that also support your well-being?"
+        },
+        {
+          "role": "client",
+          "text": "Maybe suggesting we find more ways to de-stress together, or even consider if he wants support like seeing someone about it."
+        },
+        {
+          "role": "therapist",
+          "text": "Collaboratively finding solutions can foster a supportive environment. It's important to balance both your needs in this process."
+        },
+        {
+          "role": "client",
+          "text": "Yes, I think if we work on this together, it might bring us closer instead of pushing us apart."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds hopeful. Let's continue to explore how you can engage him in this conversation constructively. We'll work on a plan for you to express your feelings and build understanding."
+        },
+        {
+          "role": "client",
+          "text": "Thanks, I feel better having a clearer idea of how to approach this."
+        },
+        {
+          "role": "therapist",
+          "text": "You're welcome. It's a challenging situation, but taking these steps can lead to positive change. Let's meet next time to see how it's going and any adjustments you'd like to make."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "relationships",
+        "questionID": "715",
+        "max_response_upvotes": 10,
+        "example_index": 1
+      },
+      "summary": "In this session, the client discussed concerns about her long-distance relationship, specifically regarding her boyfriend's texting habits with a female coworker. The therapist guided the client through exploring her feelings of insecurity and trust. The discussion included strategies for initiating an open conversation with her boyfriend to express her concerns. The therapist emphasized the importance of communication and encouraged the client to consider how her boyfriend's responses could impact their trust and relationship dynamics.",
+      "transcript": [
+        {
+          "role": "client",
+          "text": "I've been feeling uneasy about something in my relationship."
+        },
+        {
+          "role": "therapist",
+          "text": "Can you tell me more about what's been on your mind?"
+        },
+        {
+          "role": "client",
+          "text": "It's about my boyfriend. We're in a long-distance relationship, and I recently saw he texts a female coworker a lot."
+        },
+        {
+          "role": "therapist",
+          "text": "I see. What specific feelings does this situation bring up for you?"
+        },
+        {
+          "role": "client",
+          "text": "I guess it's insecurity and fear. I'm worried there might be more than just work between them."
+        },
+        {
+          "role": "therapist",
+          "text": "It's understandable to feel that way. Have you had any conversations with him about your concerns so far?"
+        },
+        {
+          "role": "client",
+          "text": "Not yet. I'm not sure how to bring it up without sounding accusatory."
+        },
+        {
+          "role": "therapist",
+          "text": "Approaching the topic delicately is important. What do you think might be a good way to start the conversation?"
+        },
+        {
+          "role": "client",
+          "text": "I was thinking of asking him more generally about how work is going and then mentioning that I've noticed he texts her a lot."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds like a gentle way to introduce the subject. How do you think he might react?"
+        },
+        {
+          "role": "client",
+          "text": "I hope he'll be open and not defensive. I'm afraid if he becomes defensive, it might indicate something's wrong."
+        },
+        {
+          "role": "therapist",
+          "text": "His reaction might indeed offer clues on how comfortable he is with transparency. What would help you feel supported during this conversation?"
+        },
+        {
+          "role": "client",
+          "text": "Knowing that he understands my feelings and values our trust would mean a lot to me."
+        },
+        {
+          "role": "therapist",
+          "text": "Expressing that to him might be beneficial. You could share that openness and honesty are important values for you."
+        },
+        {
+          "role": "client",
+          "text": "That's true. I want us both to feel secure and build trust."
+        },
+        {
+          "role": "therapist",
+          "text": "That’s a healthy foundation for any relationship. If defensive behavior does arise, how might you address it?"
+        },
+        {
+          "role": "client",
+          "text": "I think I'd try to stay calm and explain why this is important without making accusations."
+        },
+        {
+          "role": "therapist",
+          "text": "Staying calm is a great approach. Reminding him that this conversation stems from a place of wanting to strengthen your bond could be reinforcing."
+        },
+        {
+          "role": "client",
+          "text": "I'll remember that. I don’t want him to think I'm just being paranoid."
+        },
+        {
+          "role": "therapist",
+          "text": "It's about understanding and reassurance in your relationship. Would exploring these values with him be helpful?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, definitely. I want to make sure we’re both aligned on what we want from this relationship."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like you're ready to have this important conversation. How are you feeling about the next steps?"
+        },
+        {
+          "role": "client",
+          "text": "A bit nervous, but also relieved to have a plan for how to talk to him."
+        },
+        {
+          "role": "therapist",
+          "text": "That’s progress. Remember, you're advocating for your emotional wellbeing and the health of your relationship."
+        },
+        {
+          "role": "client",
+          "text": "Thank you. It helps to have this perspective."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad to hear that. Be patient with yourself and the process as you navigate this."
+        },
+        {
+          "role": "client",
+          "text": "I will. I appreciate your guidance today."
+        },
+        {
+          "role": "therapist",
+          "text": "You're very welcome. I'm here to support you in any way you need."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "anxiety",
+        "questionID": "144",
+        "max_response_upvotes": 7,
+        "example_index": 1
+      },
+      "summary": "In this session, the client discusses their anxiety about starting therapy and their fear of crying during sessions. The therapist normalizes crying as a common emotional release in therapy and reassures the client that it's a safe space for expressing emotions. As the session progresses, the client opens up about general anxiety in social settings and concerns about being perceived as weak. The therapist provides strategies for managing anxiety, such as grounding techniques, and encourages the client to practice self-compassion. By the end of the session, the client feels more at ease and expresses gratitude for the therapist's support and understanding.",
+      "transcript": [
+        {
+          "role": "client",
+          "text": "I've been really anxious about starting therapy. I'm actually worried that I might cry during our sessions."
+        },
+        {
+          "role": "therapist",
+          "text": "It's completely normal to feel anxious about starting something new like therapy. And crying is also very normal here—it’s a natural way of expressing emotions."
+        },
+        {
+          "role": "client",
+          "text": "I'm just afraid I'll embarrass myself."
+        },
+        {
+          "role": "therapist",
+          "text": "I understand that concern. But I want you to know that therapy is a safe space for all emotions. Many clients cry, and it's nothing to be ashamed of."
+        },
+        {
+          "role": "client",
+          "text": "That's a relief to hear. I tend to get overwhelmed easily, and crying is just how it comes out sometimes."
+        },
+        {
+          "role": "therapist",
+          "text": "Absolutely, it's an emotional release, and it's okay to let that happen here. How are you feeling about your anxiety in general?"
+        },
+        {
+          "role": "client",
+          "text": "It's pretty intense, especially in social situations."
+        },
+        {
+          "role": "therapist",
+          "text": "Tell me more about those situations. What thoughts or feelings come up for you?"
+        },
+        {
+          "role": "client",
+          "text": "I worry about being judged or seen as weak, especially if I get emotional."
+        },
+        {
+          "role": "therapist",
+          "text": "These are valid feelings. It sounds like there's a lot of pressure you're putting on yourself. Do you think that's affecting how you respond to anxiety?"
+        },
+        {
+          "role": "client",
+          "text": "Probably. I feel like I need to appear strong all the time."
+        },
+        {
+          "role": "therapist",
+          "text": "It’s understandable to feel that way, but even the strongest people need support. How do you think it would feel to allow yourself to be vulnerable in safe environments?"
+        },
+        {
+          "role": "client",
+          "text": "It sounds nice, but I'm not sure how to actually do that."
+        },
+        {
+          "role": "therapist",
+          "text": "Trying new ways of coping can feel challenging at first. One technique we can explore is grounding, which can help manage anxiety when it arises. Would you like to try it together now?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, I'd like that."
+        },
+        {
+          "role": "therapist",
+          "text": "Great. Let's start by taking a few deep breaths. Focus on your inhalation and exhalation. Notice how your body feels supported by the chair."
+        },
+        {
+          "role": "client",
+          "text": "Okay, I'm doing it."
+        },
+        {
+          "role": "therapist",
+          "text": "Now, look around the room and name five things you can see. It helps bring your focus to the present moment."
+        },
+        {
+          "role": "client",
+          "text": "I see the clock, the plant, the window, the bookshelf, and the couch."
+        },
+        {
+          "role": "therapist",
+          "text": "That's excellent. How do you feel right now?"
+        },
+        {
+          "role": "client",
+          "text": "A bit calmer. It's nice to focus on something tangible."
+        },
+        {
+          "role": "therapist",
+          "text": "Exactly, grounding is about connecting with the present. Practicing this can help you find calmness during anxious moments."
+        },
+        {
+          "role": "client",
+          "text": "I'll definitely try this technique. It feels achievable."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad to hear that. Remember, being kind to yourself is important too. What’s one positive thing you can tell yourself when you’re feeling anxious?"
+        },
+        {
+          "role": "client",
+          "text": "Maybe that it's okay to feel what I'm feeling, and it doesn't make me weak."
+        },
+        {
+          "role": "therapist",
+          "text": "That’s a wonderful affirmation. Self-compassion can be very powerful."
+        },
+        {
+          "role": "client",
+          "text": "Thank you, I appreciate your support. I feel a bit more at ease about this whole process now."
+        },
+        {
+          "role": "therapist",
+          "text": "You're doing great, and it’s perfectly alright to take it one step at a time. I’m here to support you through this journey."
+        },
+        {
+          "role": "client",
+          "text": "Thanks, it really helps to hear that."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "family-conflict",
+        "questionID": "627",
+        "max_response_upvotes": 7,
+        "example_index": 1
+      },
+      "summary": "In this therapy session, the client discusses their strained relationship with their sister. The client reveals they don't like or feel close to their sister, despite having a good relationship with their parents. The therapist normalizes these feelings, suggests exploring the root causes, and offers support to improve sibling relations. They discuss childhood dynamics, differing personalities, and ways to communicate more effectively. The session concludes with the client agreeing to try some techniques for better understanding and interaction with their sister.",
+      "transcript": [
+        {
+          "role": "therapist",
+          "text": "Thank you for coming in today. Where would you like to start?"
+        },
+        {
+          "role": "client",
+          "text": "I've been feeling uncomfortable about my relationship with my sister. I don't really like her, and I'm not sure if that's normal."
+        },
+        {
+          "role": "therapist",
+          "text": "It's okay to have complicated feelings towards family. What makes you feel like you don't like her?"
+        },
+        {
+          "role": "client",
+          "text": "We've always been so different. I just find it hard to connect with her."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like there might be a mismatch in personalities. Can you share more about what's different between you two?"
+        },
+        {
+          "role": "client",
+          "text": "Well, she's very outgoing and social. I'm more reserved, and we rarely share the same interests."
+        },
+        {
+          "role": "therapist",
+          "text": "What was your relationship like growing up?"
+        },
+        {
+          "role": "client",
+          "text": "We were never close. She'd always be off with friends while I preferred reading or staying home."
+        },
+        {
+          "role": "therapist",
+          "text": "It seems like there's some deep-seated dynamics that might contribute to how you feel. Have you talked to her about this?"
+        },
+        {
+          "role": "client",
+          "text": "Not really. I wouldn't know where to start, and I'm worried it might make things worse."
+        },
+        {
+          "role": "therapist",
+          "text": "That's understandable. Initiating communication can be challenging. How do you think she perceives your relationship?"
+        },
+        {
+          "role": "client",
+          "text": "I think she’s aware we're not close, but I doubt she knows how distant I feel."
+        },
+        {
+          "role": "therapist",
+          "text": "Would you be open to exploring ways to communicate this to her? Sometimes sharing our perspective can open the door to a better understanding."
+        },
+        {
+          "role": "client",
+          "text": "I guess. I'm just not sure what to say or if it would help."
+        },
+        {
+          "role": "therapist",
+          "text": "That's fair. We can work on that together. What would you ideally want in this relationship?"
+        },
+        {
+          "role": "client",
+          "text": "I would like us to respect each other's differences instead of feeling this distance all the time."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds like a reasonable goal. It's about recognizing and valuing each other's individuality."
+        },
+        {
+          "role": "client",
+          "text": "Yeah, but it's hard to get past the underlying tension."
+        },
+        {
+          "role": "therapist",
+          "text": "That tension might be a barrier. Sometimes, identifying specific incidents or patterns that contribute to this feeling can help."
+        },
+        {
+          "role": "client",
+          "text": "Hmm, I think our conflicts often stem from miscommunications or assumptions about each other's intentions."
+        },
+        {
+          "role": "therapist",
+          "text": "Acknowledging that is a great first step. How do you usually handle disagreements when they arise?"
+        },
+        {
+          "role": "client",
+          "text": "I tend to avoid them, which probably just adds to the tension."
+        },
+        {
+          "role": "therapist",
+          "text": "Avoidance is a common response, but addressing conflicts calmly can sometimes lead to a breakthrough. Would you like to explore some techniques to manage this?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, I think that could be helpful."
+        },
+        {
+          "role": "therapist",
+          "text": "Great. We can start with active listening and expressing needs without assigning blame. It might help in lowering defenses."
+        },
+        {
+          "role": "client",
+          "text": "That makes sense. I'll give it a try."
+        },
+        {
+          "role": "therapist",
+          "text": "Wonderful. How are you feeling about the steps we discussed today?"
+        },
+        {
+          "role": "client",
+          "text": "Optimistic, I suppose. It's nice to have a plan."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad. We can continue to build on this in future sessions if you find it helpful."
+        },
+        {
+          "role": "client",
+          "text": "Definitely. Thanks for the guidance."
+        },
+        {
+          "role": "therapist",
+          "text": "You're welcome. I look forward to hearing how things go with your sister. See you next time."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "parenting",
+        "questionID": "250",
+        "max_response_upvotes": 5,
+        "example_index": 1
+      },
+      "summary": "In this session, the client expressed concerns about how to maintain a relationship with their child, who is primarily with the client's ex-spouse. The client is struggling with feelings of guilt and loss, as well as worries about the emotional impact on the child. The therapist helped the client explore these feelings and provided guidance on setting boundaries and considering legal advice. Together, they discussed ways to build a stable presence in the child's life while taking care of the client's emotional well-being.",
+      "transcript": [
+        {
+          "role": "client",
+          "text": "I've been struggling with how to handle things with my child, especially after my ex and I separated."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like there's a lot of complexity in your current situation. Can you tell me more about what you're feeling?"
+        },
+        {
+          "role": "client",
+          "text": "I feel guilty for not being there all the time, but I also know I can't live in the past. My ex uses our child to get at me, and it's confusing."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds incredibly challenging. It's important to find a balance that works for you and your child. What do you think that balance might look like?"
+        },
+        {
+          "role": "client",
+          "text": "I don't want to confuse my child, but I also don't want to disappear from their life. I want to visit often but worry it's too hard on them."
+        },
+        {
+          "role": "therapist",
+          "text": "Visitation can be tricky. Have you considered talking to someone who specializes in family law to explore your options?"
+        },
+        {
+          "role": "client",
+          "text": "I haven't, but it sounds like a good idea. I want to make sure that my child understands that I care."
+        },
+        {
+          "role": "therapist",
+          "text": "That makes a lot of sense. Legal advice might provide clarity on how best to approach this, ensuring both you and your child's needs are met."
+        },
+        {
+          "role": "client",
+          "text": "I guess I'm also worried about how my child feels about the separation."
+        },
+        {
+          "role": "therapist",
+          "text": "It's natural to worry. How do you think your child is handling the current situation?"
+        },
+        {
+          "role": "client",
+          "text": "They seem okay when we're together, but I sometimes get the feeling they're confused and upset."
+        },
+        {
+          "role": "therapist",
+          "text": "Children are perceptive and can pick up on a lot. It might help to reassure them that both parents love them."
+        },
+        {
+          "role": "client",
+          "text": "I do try to tell them that every chance I get. I just wish things could be simpler."
+        },
+        {
+          "role": "therapist",
+          "text": "It's understandable. Navigating family dynamics is rarely simple. What support do you have in place for yourself in all of this?"
+        },
+        {
+          "role": "client",
+          "text": "Not much. I usually keep it all to myself, but it's been wearing on me."
+        },
+        {
+          "role": "therapist",
+          "text": "It’s important to have support. Perhaps finding a support group could provide some relief and perspective."
+        },
+        {
+          "role": "client",
+          "text": "I'll think about that. I haven't really reached out for support before, but it might help."
+        },
+        {
+          "role": "therapist",
+          "text": "We can't pour from an empty cup. Taking care of yourself will only help you be stronger for your child."
+        },
+        {
+          "role": "client",
+          "text": "You're right. I forget that sometimes, especially when I’m focused on them."
+        },
+        {
+          "role": "therapist",
+          "text": "What could be your first small step towards setting some boundaries and finding time for your own needs?"
+        },
+        {
+          "role": "client",
+          "text": "Maybe I could schedule regular visits and also allocate time to focus on my own interests."
+        },
+        {
+          "role": "therapist",
+          "text": "Having consistency might help your child and yourself feel more settled. What interests you?"
+        },
+        {
+          "role": "client",
+          "text": "I used to enjoy painting, but I haven't done it in a long time."
+        },
+        {
+          "role": "therapist",
+          "text": "Revisiting painting could be a wonderful way to reconnect with yourself and find some peace."
+        },
+        {
+          "role": "client",
+          "text": "I'll try setting some time aside each week for it. It might be good for me."
+        },
+        {
+          "role": "therapist",
+          "text": "That's a great plan. As you focus on your needs, you'll also be supporting your child's experience by being more present."
+        },
+        {
+          "role": "client",
+          "text": "I hope so. I really want to do my best for both of us."
+        },
+        {
+          "role": "therapist",
+          "text": "And you are already taking steps towards that by reflecting on these challenges and seeking solutions. Let's continue working on this together."
+        },
+        {
+          "role": "client",
+          "text": "Thank you. I feel a little more hopeful about this."
+        },
+        {
+          "role": "therapist",
+          "text": "That's a positive step today. Remember, progress takes time. We’ll make sure we manage it at a pace that works for you and your family."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "self-esteem",
+        "questionID": "310",
+        "max_response_upvotes": 5,
+        "example_index": 1
+      },
+      "summary": "In this therapy session, the client, a young male, explores his feelings of insecurity and lack of trust in his relationship with his older girlfriend. The therapist encourages the client to reflect on the sources of his jealousy and trust issues, originating from earlier experiences. They discuss how these feelings impact his current relationship and the potential benefits of focusing on self-improvement. The client expresses concern about his partner's happiness and is conflicted about the notion of letting her go. The session concludes with the therapist suggesting practical steps for the client to build self-esteem and trust, emphasizing personal growth to improve both himself and his relationship.",
+      "transcript": [
+        {
+          "role": "client",
+          "text": "I've been feeling really conflicted about my relationship lately."
+        },
+        {
+          "role": "therapist",
+          "text": "Can you tell me more about what's causing this conflict?"
+        },
+        {
+          "role": "client",
+          "text": "My girlfriend is amazing, but we fight a lot. It's mostly because of my trust issues."
+        },
+        {
+          "role": "therapist",
+          "text": "What do you think is at the root of those trust issues?"
+        },
+        {
+          "role": "client",
+          "text": "I’ve always struggled with insecurity and feeling like I'm not good enough."
+        },
+        {
+          "role": "therapist",
+          "text": "Have you felt this way in other relationships or areas of your life?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, it's been a recurring pattern, not just with her."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like this is a significant theme for you. How does it affect your relationship?"
+        },
+        {
+          "role": "client",
+          "text": "I'm constantly worried she'll leave for someone better, and it leads to a lot of jealousy and arguments."
+        },
+        {
+          "role": "therapist",
+          "text": "That must be very stressful. How does your girlfriend respond to these feelings?"
+        },
+        {
+          "role": "client",
+          "text": "She tries to reassure me, but I know it wears on her too."
+        },
+        {
+          "role": "therapist",
+          "text": "What do you want to be different in your life or relationship?"
+        },
+        {
+          "role": "client",
+          "text": "I want to trust her more and be more secure in myself."
+        },
+        {
+          "role": "therapist",
+          "text": "Building self-trust is a powerful way to improve both personal and relational confidence. What might help you work towards that?"
+        },
+        {
+          "role": "client",
+          "text": "I'm not sure, but I think talking about it could help."
+        },
+        {
+          "role": "therapist",
+          "text": "Absolutely. Understanding where these feelings come from can be a first step towards change. Do you have any idea where your insecurity began?"
+        },
+        {
+          "role": "client",
+          "text": "I guess I've always been hard on myself, even as a kid. Afraid of not meeting expectations."
+        },
+        {
+          "role": "therapist",
+          "text": "That seems significant. Those early experiences can really shape how we view ourselves. What do you think young you needed back then?"
+        },
+        {
+          "role": "client",
+          "text": "I think I needed more reassurance, to know I was alright just as I am."
+        },
+        {
+          "role": "therapist",
+          "text": "That self-reassurance is something we can work on building now. Would you be open to exercises that might help cultivate that?"
+        },
+        {
+          "role": "client",
+          "text": "Yeah, I’d like to try whatever might help me and my relationship."
+        },
+        {
+          "role": "therapist",
+          "text": "Great. Journaling or affirmations can start adding positive reinforcement to your self-view. Have you tried anything like that before?"
+        },
+        {
+          "role": "client",
+          "text": "Not really. But I’m willing to give it a shot."
+        },
+        {
+          "role": "therapist",
+          "text": "It might be worth exploring, along with continuing to discuss and understand these feelings here. Let's plan to focus on this next session too."
+        },
+        {
+          "role": "client",
+          "text": "Sounds good. I really want things to get better."
+        },
+        {
+          "role": "therapist",
+          "text": "I believe they can. You're taking meaningful steps by having these conversations. Your willingness to look inward will benefit you a lot."
+        },
+        {
+          "role": "client",
+          "text": "Thanks. I do feel hopeful talking about it."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad to hear that. Remember, you're not alone in this, and it’s a journey we can navigate together."
+        },
+        {
+          "role": "client",
+          "text": "Thanks, I appreciate it. I'll see you next week."
+        },
+        {
+          "role": "therapist",
+          "text": "Looking forward to it. Take care."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "behavioral-change",
+        "questionID": "862",
+        "max_response_upvotes": 7,
+        "example_index": 1
+      },
+      "summary": "In this session, the client discusses struggles with being overly possessive in relationships, which negatively impacts friendships. The therapist identifies underlying fears and low self-esteem as major contributors to these behaviors. The session focuses on understanding these feelings and introduces cognitive restructuring techniques. The client is encouraged to identify and reframe negative self-beliefs. Specific examples are discussed, and the client is tasked with practicing these techniques before the next session. Resources such as self-help materials are suggested as additional support.",
+      "transcript": [
+        {
+          "role": "therapist",
+          "text": "Welcome. How has your week been?"
+        },
+        {
+          "role": "client",
+          "text": "It’s been tough. I realized how possessive I get with my friends, and it's causing problems."
+        },
+        {
+          "role": "therapist",
+          "text": "That’s an important insight. Can you tell me more about these problems?"
+        },
+        {
+          "role": "client",
+          "text": "I tend to get anxious when my friends make other plans without me. I worry they'll forget about me."
+        },
+        {
+          "role": "therapist",
+          "text": "It sounds like you’re experiencing fear of being left out or losing them. Is that right?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, exactly. I feel like I need to hold on tight. But then they say I’m too controlling."
+        },
+        {
+          "role": "therapist",
+          "text": "It's understandable to want to maintain connections. Let’s explore what's underneath this need to be possessive."
+        },
+        {
+          "role": "client",
+          "text": "I think it's mostly about fear. I hate being alone."
+        },
+        {
+          "role": "therapist",
+          "text": "Fear can indeed lead to such behaviors. Do you also feel there's some part of this tied to your self-esteem?"
+        },
+        {
+          "role": "client",
+          "text": "I think so. Sometimes I feel like I'm not good enough and that if I'm not constantly present, I'll be forgotten."
+        },
+        {
+          "role": "therapist",
+          "text": "Those feelings are quite powerful. A negative self-view can certainly fuel fears of rejection."
+        },
+        {
+          "role": "client",
+          "text": "So how do I stop these feelings from taking over?"
+        },
+        {
+          "role": "therapist",
+          "text": "Understanding them is the first step. You can also start to reframe those thoughts. Would you like to practice this?"
+        },
+        {
+          "role": "client",
+          "text": "Yes, please. I’m willing to try anything."
+        },
+        {
+          "role": "therapist",
+          "text": "Alright, let’s start with something simple. Think about a negative belief you hold about yourself."
+        },
+        {
+          "role": "client",
+          "text": "I often think, 'I’m too pushy.'"
+        },
+        {
+          "role": "therapist",
+          "text": "Try reframing that thought into something more positive. How about, 'I am assertive and I express my needs'?"
+        },
+        {
+          "role": "client",
+          "text": "That sounds better. But it's hard to believe it sometimes."
+        },
+        {
+          "role": "therapist",
+          "text": "It's natural to feel that way initially. Repeated practice can help make these new thoughts feel more real over time."
+        },
+        {
+          "role": "client",
+          "text": "I’ll give it a shot. Should I write these down?"
+        },
+        {
+          "role": "therapist",
+          "text": "Yes, writing them down can be quite helpful. You could keep a journal and note your thoughts and their reframes."
+        },
+        {
+          "role": "client",
+          "text": "I’ll do that. Are there other things I could try?"
+        },
+        {
+          "role": "therapist",
+          "text": "Cognitive therapy exercises are great, and you might also find self-help books and online resources useful."
+        },
+        {
+          "role": "client",
+          "text": "That sounds good. I have some books in mind that I can look into."
+        },
+        {
+          "role": "therapist",
+          "text": "Excellent. How do you feel about taking on this new approach?"
+        },
+        {
+          "role": "client",
+          "text": "Hopeful, but I know it'll take effort. I’m ready to put in the work."
+        },
+        {
+          "role": "therapist",
+          "text": "That's the spirit! We'll check in on your progress in our next session. Until then, be kind to yourself."
+        },
+        {
+          "role": "client",
+          "text": "Thank you. I’ll do my best. See you next time."
+        },
+        {
+          "role": "therapist",
+          "text": "Take care until then."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "relationship-dissolution",
+        "questionID": "355",
+        "max_response_upvotes": 4,
+        "example_index": 1
+      },
+      "summary": "The client discusses their struggle with moving on from a recent breakup, feeling overwhelmed by constant reminders of their past relationship. The therapist guides the client through their emotions, helping them focus on self-compassion and the importance of setting small, achievable goals for emotional healing. The session includes exploring the client's coping mechanisms and encouraging positive visualization of the future.",
+      "transcript": [
+        {
+          "role": "client",
+          "text": "I've been having a hard time moving on from my breakup. Everything reminds me of what we had."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds really challenging. Would you like to share what specifically has been triggering for you?"
+        },
+        {
+          "role": "client",
+          "text": "It's like every song, every place, even certain foods make me think of them."
+        },
+        {
+          "role": "therapist",
+          "text": "I hear you. Those reminders can make you feel stuck. What emotions come up when these reminders appear?"
+        },
+        {
+          "role": "client",
+          "text": "Mostly sadness and sometimes anger. I don't understand why it's so hard to let go."
+        },
+        {
+          "role": "therapist",
+          "text": "It's completely normal to feel both sadness and anger. Breakups can be a grieving process. What have you been doing to cope with these feelings?"
+        },
+        {
+          "role": "client",
+          "text": "I've tried distracting myself with work and spending time with friends, but it only helps temporarily."
+        },
+        {
+          "role": "therapist",
+          "text": "Distraction can be helpful, but healing often requires addressing the emotions themselves. Have you considered setting small goals to help manage these feelings?"
+        },
+        {
+          "role": "client",
+          "text": "I haven't really thought about goals. What kind of goals could help with this?"
+        },
+        {
+          "role": "therapist",
+          "text": "Small goals could include journaling your feelings, practicing mindfulness, or setting aside specific time to reflect on the relationship and what you want moving forward."
+        },
+        {
+          "role": "client",
+          "text": "I like the idea of journaling. It might help me process what I'm going through."
+        },
+        {
+          "role": "therapist",
+          "text": "Journaling can be a powerful tool. It allows you to express your thoughts without judgment. How does visualizing your future without them feel to you?"
+        },
+        {
+          "role": "client",
+          "text": "Honestly, it feels empty, but I know I need to envision something new for myself."
+        },
+        {
+          "role": "therapist",
+          "text": "It's okay to feel that emptiness initially. It's a space to be filled with new experiences and new hopes. What are some things you look forward to in your future?"
+        },
+        {
+          "role": "client",
+          "text": "I want to travel more and maybe start a new hobby. Those feel like positive steps."
+        },
+        {
+          "role": "therapist",
+          "text": "Those sound like wonderful goals. They can give you a sense of moving forward. How might pursuing these help with your healing?"
+        },
+        {
+          "role": "client",
+          "text": "I think they'll help distract me, but also provide new memories and connections."
+        },
+        {
+          "role": "therapist",
+          "text": "Exactly. Building new memories can gradually shift your focus from the past. How are you feeling about your progress in this session?"
+        },
+        {
+          "role": "client",
+          "text": "I feel a little more hopeful. It's comforting to have a plan."
+        },
+        {
+          "role": "therapist",
+          "text": "That's great to hear. Remember, progress takes time, and it's okay to take it one step at a time. Consider celebrating even the small victories along the way."
+        },
+        {
+          "role": "client",
+          "text": "Thank you. I think I'll try that. It feels like a manageable approach."
+        },
+        {
+          "role": "therapist",
+          "text": "You're welcome. We'll check in on these goals next time and see how things are evolving for you."
+        },
+        {
+          "role": "client",
+          "text": "Sounds good. I appreciate the support."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm here to support you. Remember, you're not alone in this. Looking forward to our next session."
+        },
+        {
+          "role": "client",
+          "text": "I look forward to it too. Thanks again."
+        }
+      ],
+      "model": "gpt-4o"
+    },
+    {
+      "source": {
+        "topic": "anger-management",
+        "questionID": "452",
+        "max_response_upvotes": 5,
+        "example_index": 1
+      },
+      "summary": "In this therapy session, the client discusses a distressing incident where their partner hit himself during an argument. The therapist helps the client explore feelings of fear, confusion, and concern for the partner's well-being. They discuss the dynamics of self-harm, possible underlying emotions, and how past experiences might contribute to such behaviors. The session focuses on understanding these actions, empathizing with the partner, and discussing potential communication strategies to address and support emotional health in the relationship.",
+      "transcript": [
+        {
+          "role": "therapist",
+          "text": "Welcome back. How have you been since our last session?"
+        },
+        {
+          "role": "client",
+          "text": "Hi. It's been a bit rough. Something happened with my boyfriend that left me really shaken."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm sorry to hear that. Would you like to tell me more about it?"
+        },
+        {
+          "role": "client",
+          "text": "Well, we had a fight, and during the argument, he started hitting himself in the face. I'd never seen him do that before and it scared me a lot."
+        },
+        {
+          "role": "therapist",
+          "text": "That sounds quite upsetting to witness. It makes sense that it scared you. Do you know what might have prompted him to do that?"
+        },
+        {
+          "role": "client",
+          "text": "I'm not entirely sure, but I could tell he was really overwhelmed and frustrated."
+        },
+        {
+          "role": "therapist",
+          "text": "It's possible that when emotions become too intense, people might resort to actions that are reflections of past experiences or coping mechanisms. Have you talked to him about it since?"
+        },
+        {
+          "role": "client",
+          "text": "I haven't yet. I've been unsure about how to approach the subject without upsetting him further."
+        },
+        {
+          "role": "therapist",
+          "text": "Approaching such a sensitive topic can be challenging. It might help to express your concern and care for his well-being when you do decide to speak with him."
+        },
+        {
+          "role": "client",
+          "text": "Yeah, I do care about him a lot, and I want him to know that. Honestly, I’m just unsure how to get through to him."
+        },
+        {
+          "role": "therapist",
+          "text": "Sometimes starting the conversation with empathy can help. Acknowledge the emotions both of you felt and let him know you want to understand what he's going through."
+        },
+        {
+          "role": "client",
+          "text": "That makes sense. I guess I've been focusing a lot on my own fear and not enough on what he might have been feeling."
+        },
+        {
+          "role": "therapist",
+          "text": "It's natural to focus on our own reactions in the moment. Shifting the focus to understanding each other can help build a stronger connection."
+        },
+        {
+          "role": "client",
+          "text": "I just want to make sure I'm there for him, just like he is for me. I don't want this to become a pattern."
+        },
+        {
+          "role": "therapist",
+          "text": "That intention is a great starting point for any conversation. It can be helpful to reflect on the underlying feelings he might experience during conflicts—like anger, hurt, or frustration."
+        },
+        {
+          "role": "client",
+          "text": "He sometimes mentioned feeling helpless when arguments get intense, but he's never acted like this before."
+        },
+        {
+          "role": "therapist",
+          "text": "Feelings of helplessness can be powerful and overwhelming. It could be beneficial to explore healthy ways together to manage these emotions."
+        },
+        {
+          "role": "client",
+          "text": "I think it would be helpful for both of us. I'm willing to do whatever it takes to support that."
+        },
+        {
+          "role": "therapist",
+          "text": "That's a compassionate stance to take. Some couples find it helpful to work on communication skills that allow each person to share feelings without escalating the situation."
+        },
+        {
+          "role": "client",
+          "text": "I think that could really help us. We really need a way to communicate better when things heat up."
+        },
+        {
+          "role": "therapist",
+          "text": "Definitely. Creating an open dialogue space and developing shared tools to manage stress can improve both understanding and connection."
+        },
+        {
+          "role": "client",
+          "text": "Thank you, that sounds like a good approach. I think we can try talking about this calmly soon."
+        },
+        {
+          "role": "therapist",
+          "text": "You're welcome. Remember, it’s okay to take things one step at a time. How are you feeling about trying to have this conversation?"
+        },
+        {
+          "role": "client",
+          "text": "A little anxious, but also relieved. I feel more hopeful after talking about it here."
+        },
+        {
+          "role": "therapist",
+          "text": "I'm glad to hear that. Keep in mind, you're there for each other, and finding ways to support one another emotionally can be very rewarding."
+        },
+        {
+          "role": "client",
+          "text": "Yes, that’s what matters to me. Thanks for your help today."
+        },
+        {
+          "role": "therapist",
+          "text": "Of course. We'll continue exploring these themes. Feel free to reach out if you need additional support before our next session."
+        },
+        {
+          "role": "client",
+          "text": "I will. Thanks again."
+        },
+        {
+          "role": "therapist",
+          "text": "Take care until next time."
+        }
+      ],
+      "model": "gpt-4o"
+    }
+  ]
+}
